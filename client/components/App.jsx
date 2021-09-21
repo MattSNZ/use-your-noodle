@@ -1,13 +1,17 @@
 import React from 'react'
+import Album from './Album'
+import Home from './Home'
+import CssBaseline from '@mui/material/CssBaseline'
 
-import Fruit from './Fruit'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 const App = () => {
   return (
-    <>
-      <h1>Hola! Fruit time!</h1>
-      <Fruit />
-    </>
+    <Router>
+      <CssBaseline />
+      <Route path="/album" component={Album} />
+      <Route pate="/" component={Home} />
+    </Router>
   )
 }
 

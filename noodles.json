@@ -1,0 +1,3474 @@
+{
+  "from": 1,
+  "to": 20,
+  "count": 10000,
+  "_links": {},
+  "hits": [
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_d65d001cc52e2d170f7b83bc12131a55",
+        "label": "Sriracha Chicken Ramen",
+        "image": "https://www.edamam.com/web-img/c46/c46231e3e6410e4855133b5edcc60d08",
+        "source": "justapinch.com",
+        "url": "https://www.justapinch.com/recipes/main-course/chicken/sriracha-chicken-ramen.html",
+        "yield": 6.0,
+        "ingredientLines": [
+          "1 lb boneless skinless chicken breast cut into small cubes",
+          "1 Tbsp sriracha sauce",
+          "64 oz chicken broth",
+          "4 clove garlic",
+          "2 Tbsp soy sauce",
+          "2 Tbsp lemongrass paste",
+          "1 Tbsp chili paste",
+          "1 tsp grated ginger",
+          "2 pkg oriental flavored ramen noodles",
+          "1 c shiitake mushrooms stemmed and sliced",
+          "4 green onions chopped",
+          "1 c cilantro chopped",
+          "2 small limes juiced"
+        ],
+        "ingredients": [
+          {
+            "text": "1 lb boneless skinless chicken breast cut into small cubes",
+            "quantity": 1.0,
+            "measure": "pound",
+            "food": "boneless skinless chicken breast",
+            "weight": 453.59237,
+            "foodCategory": "Poultry",
+            "foodId": "food_bdrxu94aj3x2djbpur8dhagfhkcn",
+            "image": "https://www.edamam.com/food-img/da5/da510379d3650787338ca16fb69f4c94.jpg"
+          },
+          {
+            "text": "64 oz chicken broth",
+            "quantity": 64.0,
+            "measure": "ounce",
+            "food": "chicken broth",
+            "weight": 1814.36948,
+            "foodCategory": "canned soup",
+            "foodId": "food_bptblvzambd16nbhewqmhaw1rnh5",
+            "image": "https://www.edamam.com/food-img/26a/26a10c4cb4e07bab54d8a687ef5ac7d8.jpg"
+          },
+          {
+            "text": "4 clove garlic",
+            "quantity": 4.0,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 12.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": "2 Tbsp soy sauce",
+            "quantity": 2.0,
+            "measure": "tablespoon",
+            "food": "soy sauce",
+            "weight": 32.0,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_a5g9yevb1iactoaiimbvjbkrxueh",
+            "image": "https://www.edamam.com/food-img/f56/f562e461eb0618f367f538b836c17b82.jpg"
+          },
+          {
+            "text": "2 Tbsp lemongrass paste",
+            "quantity": 2.0,
+            "measure": "tablespoon",
+            "food": "lemongrass",
+            "weight": 9.6,
+            "foodCategory": "vegetables",
+            "foodId": "food_b3l1z8na3dy8qfaht3yubbrdu94h",
+            "image": "https://www.edamam.com/food-img/a6e/a6ef38b461759334bbdc4d25ca678ad1.jpg"
+          },
+          {
+            "text": "1 Tbsp chili paste",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "chili paste",
+            "weight": 15.0,
+            "foodCategory": "canned soup",
+            "foodId": "food_ayjzfd9bhvwqorb6m5iq3bekq7cj",
+            "image": "https://www.edamam.com/food-img/12f/12f4b9a8e738f35b7dd787a5360e4a45.jpg"
+          },
+          {
+            "text": "1 tsp grated ginger",
+            "quantity": 1.0,
+            "measure": "teaspoon",
+            "food": "ginger",
+            "weight": 2.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bi2ki2xb5zmmvbaiwf7ztbgktzp6",
+            "image": "https://www.edamam.com/food-img/b9c/b9c06ef451ef29513880af0a53ebbaa6.jpg"
+          },
+          {
+            "text": "2 pkg oriental flavored ramen noodles",
+            "quantity": 2.0,
+            "measure": "package",
+            "food": "ramen noodles",
+            "weight": 170.0,
+            "foodCategory": "canned soup",
+            "foodId": "food_ayweivebq83j17badscbyax7f88x",
+            "image": "https://www.edamam.com/food-img/c52/c523bc0bbc9fb862315198af8749be5d.jpg"
+          },
+          {
+            "text": "1 c shiitake mushrooms stemmed and sliced",
+            "quantity": 1.0,
+            "measure": "cup",
+            "food": "shiitake mushrooms",
+            "weight": 66.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_aq85j07b3arnn3bjy9gribye1mpm",
+            "image": "https://www.edamam.com/food-img/e1e/e1e021cc92b36fa5d19571c2a331d53b.jpg"
+          },
+          {
+            "text": "4 green onions chopped",
+            "quantity": 4.0,
+            "measure": "<unit>",
+            "food": "green onions",
+            "weight": 60.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bknlkyzbuzo27pb11whr4bttkuy6",
+            "image": "https://www.edamam.com/food-img/b89/b89986ed6aa466285bdd99bac34b3c46.jpg"
+          },
+          {
+            "text": "1 c cilantro chopped",
+            "quantity": 1.0,
+            "measure": "cup",
+            "food": "cilantro",
+            "weight": 16.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_alhzhuwb4lc7jnb5s6f02by60bzp",
+            "image": "https://www.edamam.com/food-img/d57/d57e375b6ff99a90c7ee2b1990a1af36.jpg"
+          },
+          {
+            "text": "2 small limes juiced",
+            "quantity": 2.0,
+            "measure": "<unit>",
+            "food": "limes",
+            "weight": 100.5,
+            "foodCategory": "fruit",
+            "foodId": "food_av58muyb8kg92fbk0g8g8aui5knv",
+            "image": "https://www.edamam.com/food-img/48a/48a123c9576647c4ada6a41df5eeb22a.jpg"
+          }
+        ],
+        "totalTime": 25.0,
+        "cuisineType": [
+          "japanese"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/d65d001cc52e2d170f7b83bc12131a55?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_9e21478a1e6132aebdc114ba0c2181c3",
+        "label": "Salmon fillets with soba noodle salad",
+        "image": "https://www.edamam.com/web-img/a69/a69b3f5bcef10f130a68b43047ced7df.jpg",
+        "source": "womensweeklyfood.com.au",
+        "url": "https://www.womensweeklyfood.com.au/recipes/salmon-fillets-with-soba-noodle-salad-25936",
+        "yield": 4.0,
+        "ingredientLines": [
+          "4 125g boneless, skinless salmon fillets",
+          "270 gram soba noodles",
+          "1 carrot, julienned",
+          "3 green onions, thinly sliced",
+          "1/2 bunch watercress, washed, dried, sprigs picked",
+          "1 lebanese cucumber, julienned",
+          "1/2 avocado, peeled, seeded, cubed",
+          "1 tablespoon toasted sesame seeds, to serve",
+          "1/4 cup seasoned rice vinegar",
+          "2 tablespoon tamari (or soy sauce)",
+          "2 tablespoon white miso paste",
+          "1 tablespoon rice bran oil"
+        ],
+        "ingredients": [
+          {
+            "text": "4 125g boneless, skinless salmon fillets",
+            "quantity": 500.0,
+            "measure": "gram",
+            "food": "salmon",
+            "weight": 500.0,
+            "foodCategory": "seafood",
+            "foodId": "food_bhncugnadgibupafbeeapbislbom",
+            "image": "https://www.edamam.com/food-img/9a0/9a0f38422e9f21dcedbc2dca0d8209ac.jpg"
+          },
+          {
+            "text": "270 gram soba noodles",
+            "quantity": 270.0,
+            "measure": "gram",
+            "food": "soba noodles",
+            "weight": 270.0,
+            "foodCategory": "grains",
+            "foodId": "food_aqaha3dafwlf4qa5jg1b2bwzz8jm",
+            "image": "https://www.edamam.com/food-img/85c/85c4c240b7838a2de80c5dcab3107e97.jpg"
+          },
+          {
+            "text": "1 carrot, julienned",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "carrot",
+            "weight": 61.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_ai215e5b85pdh5ajd4aafa3w2zm8",
+            "image": "https://www.edamam.com/food-img/121/121e33fce0bb9546ed7d060b6c114e29.jpg"
+          },
+          {
+            "text": "3 green onions, thinly sliced",
+            "quantity": 3.0,
+            "measure": "<unit>",
+            "food": "green onions",
+            "weight": 45.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bknlkyzbuzo27pb11whr4bttkuy6",
+            "image": "https://www.edamam.com/food-img/b89/b89986ed6aa466285bdd99bac34b3c46.jpg"
+          },
+          {
+            "text": "1/2 bunch watercress, washed, dried, sprigs picked",
+            "quantity": 0.5,
+            "measure": "bunch",
+            "food": "watercress",
+            "weight": 50.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bqj8tvnav5gmivasnvvlea9fnhpv",
+            "image": "https://www.edamam.com/food-img/5bd/5bde2c99df9b69be97523877ffd891b2.jpg"
+          },
+          {
+            "text": "1 lebanese cucumber, julienned",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "cucumber",
+            "weight": 301.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bv7aggjag9rxsaatklqzobca5fzn",
+            "image": "https://www.edamam.com/food-img/501/5015da0e5fc2b384696b3d949aefef86.jpg"
+          },
+          {
+            "text": "1/2 avocado, peeled, seeded, cubed",
+            "quantity": 0.5,
+            "measure": "<unit>",
+            "food": "avocado",
+            "weight": 100.5,
+            "foodCategory": "fruit",
+            "foodId": "food_b0yuze4b1g3afpanijno5abtiu28",
+            "image": "https://www.edamam.com/food-img/984/984a707ea8e9c6bf5f6498970a9e6d9d.jpg"
+          },
+          {
+            "text": "1 tablespoon toasted sesame seeds, to serve",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "sesame seeds",
+            "weight": 9.0,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_bvxfnx8bwz2q3abs04kd6bbuf9w8",
+            "image": "https://www.edamam.com/food-img/291/291b355a7a0948716243164427697279.jpg"
+          },
+          {
+            "text": "1/4 cup seasoned rice vinegar",
+            "quantity": 0.25,
+            "measure": "cup",
+            "food": "seasoned rice vinegar",
+            "weight": 59.75,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_bhk02bwbp4x7kkbeajj2pbnj15cp",
+            "image": "https://www.edamam.com/food-img/c7d/c7dbd1846c5d08e9739930d70a404d50.jpg"
+          },
+          {
+            "text": "2 tablespoon tamari (or soy sauce)",
+            "quantity": 2.0,
+            "measure": "tablespoon",
+            "food": "tamari",
+            "weight": 36.0,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_al3j2qwa04zybuafc1twwap4umvy",
+            "image": "https://www.edamam.com/food-img/f52/f5263a232df96ad21cf2120e05c941ae.jpg"
+          },
+          {
+            "text": "2 tablespoon white miso paste",
+            "quantity": 2.0,
+            "measure": "tablespoon",
+            "food": "miso paste",
+            "weight": 34.0,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_agp37bpbhswz7sa7hlwj7b8vzcbt",
+            "image": "https://www.edamam.com/food-img/352/3525e5a38bb13c74aa34ef6c0273bf33.jpg"
+          },
+          {
+            "text": "1 tablespoon rice bran oil",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "rice bran oil",
+            "weight": 13.6,
+            "foodCategory": "Oils",
+            "foodId": "food_auzjr6cb0k5mzlaxxioobb11jwnw",
+            "image": "https://www.edamam.com/food-img/d9c/d9c0f9668bb04fc2819c71dd62d46bd2.jpg"
+          }
+        ],
+        "totalTime": 30.0,
+        "cuisineType": [
+          "nordic"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "salad",
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/9e21478a1e6132aebdc114ba0c2181c3?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_05865018415b8d3e470e4e2d87d556c5",
+        "label": "Slow Cooker Turkey Meatball Florentine #no",
+        "image": "https://www.edamam.com/web-img/f56/f56acd33507cea2e2167162237d40224.jpg",
+        "source": "organizeyourselfskinny.com",
+        "url": "http://www.organizeyourselfskinny.com/2015/02/02/slow-cooker-turkey-meatball-florentine-noyolksonly/",
+        "yield": 10.0,
+        "ingredientLines": [
+          "* meatball",
+          "* 1 piece whole wheat bread",
+          "* 2-3 tablespoon 1% milk",
+          "* 1 lb ground turkey",
+          "* 1 cup finely chopped spinach",
+          "* 1 large egg",
+          "* 3 garlic clove, grated or finely minced",
+          "* 1 tablespoon onion powder",
+          "* 1/4 teaspoon salt",
+          "* 1/4 teaspoon pepper",
+          "* 1 tablespoon worcestershire sauce",
+          "* 1/4 cup grated parmesan cheese",
+          "* 1/4 cup panko bread crumb",
+          "* sauce",
+          "* 1 tablespoon olive oil",
+          "* 1 medium onion, chopped",
+          "* 3 garlic clove, chopped",
+          "* 1 teaspoon basil",
+          "* 1 teaspooon oregano",
+          "* 1/4 teaspoon crushed red pepper",
+          "* 1 (6-ounce) can tomato paste",
+          "* 1/4 cup chicken broth or beef broth",
+          "* 1 (28 ounce) can crushed tomato",
+          "* 1 (15 ounce) can tomato sauce",
+          "* 2 teaspoon brown sugar",
+          "* 6 ounce no yolk extra broad noodle, cooked according to package"
+        ],
+        "ingredients": [
+          {
+            "text": "* meatball",
+            "quantity": 0.0,
+            "measure": null,
+            "food": "meatball",
+            "weight": 0.0,
+            "foodCategory": "meats",
+            "foodId": "food_boq91pbbhklr6sb0d9sbybzgklkm",
+            "image": "https://www.edamam.com/food-img/cfa/cfae8f9276eaf8f0d9349ba662744a0c.jpg"
+          },
+          {
+            "text": "* 1 piece whole wheat bread",
+            "quantity": 1.0,
+            "measure": "piece",
+            "food": "whole wheat bread",
+            "weight": 28.35,
+            "foodCategory": "bread, rolls and tortillas",
+            "foodId": "food_bavo9dwb2qgylob09j84nbhpxsg9",
+            "image": "https://www.edamam.com/food-img/83a/83a9f144371e7967bdaa4ee50cdb4eaa.jpg"
+          },
+          {
+            "text": "* 2-3 tablespoon 1% milk",
+            "quantity": 2.5,
+            "measure": "tablespoon",
+            "food": "1% milk",
+            "weight": 38.124999999355424,
+            "foodCategory": "Milk",
+            "foodId": "food_anmsfo1a7sxp0paea6rcsav5m5t0",
+            "image": "https://www.edamam.com/food-img/007/0072c28f37f18088ff10e36d9e6d0ace.png"
+          },
+          {
+            "text": "* 1 lb ground turkey",
+            "quantity": 1.0,
+            "measure": "pound",
+            "food": "ground turkey",
+            "weight": 453.59237,
+            "foodCategory": "Poultry",
+            "foodId": "food_av7gav4bs6txmfb85t0ruapws8if",
+            "image": "https://www.edamam.com/food-img/c1a/c1a1663042ef7f4d6d50f1f6418aaac6.jpg"
+          },
+          {
+            "text": "* 1 cup finely chopped spinach",
+            "quantity": 1.0,
+            "measure": "cup",
+            "food": "spinach",
+            "weight": 30.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_aoceuc6bshdej1bbsdammbnj6l6o",
+            "image": "https://www.edamam.com/food-img/e6e/e6e4be375c4554ce01c8ea75232efaa6.jpg"
+          },
+          {
+            "text": "* 1 large egg",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "egg",
+            "weight": 50.0,
+            "foodCategory": "Eggs",
+            "foodId": "food_bhpradua77pk16aipcvzeayg732r",
+            "image": "https://www.edamam.com/food-img/a7e/a7ec7c337cb47c6550b3b118e357f077.jpg"
+          },
+          {
+            "text": "* 3 garlic clove, grated or finely minced",
+            "quantity": 3.0,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 9.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": "* 1 tablespoon onion powder",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "onion powder",
+            "weight": 6.9,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_bmv8z27b1o25vcbu41ooyawd2zj4",
+            "image": "https://www.edamam.com/food-img/1e7/1e73e6f5dd96bb233abc0fcc05fb0ec8.jpg"
+          },
+          {
+            "text": "* 1/4 teaspoon salt",
+            "quantity": 0.25,
+            "measure": "teaspoon",
+            "food": "salt",
+            "weight": 1.5,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": "* 1/4 teaspoon pepper",
+            "quantity": 0.25,
+            "measure": "teaspoon",
+            "food": "pepper",
+            "weight": 0.725,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b6ywzluaaxv02wad7s1r9ag4py89",
+            "image": "https://www.edamam.com/food-img/c6e/c6e5c3bd8d3bc15175d9766971a4d1b2.jpg"
+          },
+          {
+            "text": "* 1 tablespoon worcestershire sauce",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "worcestershire sauce",
+            "weight": 17.0,
+            "foodCategory": "canned soup",
+            "foodId": "food_ahb8mscbejo58ubexo0itam1i74g",
+            "image": "https://www.edamam.com/food-img/072/072b61dd1ad5bb641f05b14f716ba6d0.jpg"
+          },
+          {
+            "text": "* 1/4 cup grated parmesan cheese",
+            "quantity": 0.25,
+            "measure": "cup",
+            "food": "parmesan cheese",
+            "weight": 37.1765625,
+            "foodCategory": "Cheese",
+            "foodId": "food_a104ppxa06d3emb272fkcab3cugd",
+            "image": "https://www.edamam.com/food-img/f58/f588658627c59d5041e4664119829aa9.jpg"
+          },
+          {
+            "text": "* 1/4 cup panko bread crumb",
+            "quantity": 0.25,
+            "measure": "cup",
+            "food": "panko bread crumb",
+            "weight": 15.0,
+            "foodCategory": "grains",
+            "foodId": "food_a9tnk2lbj0xkckbytqnx1ajhpqbp",
+            "image": null
+          },
+          {
+            "text": "* 1 tablespoon olive oil",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "olive oil",
+            "weight": 13.5,
+            "foodCategory": "Oils",
+            "foodId": "food_b1d1icuad3iktrbqby0hiagafaz7",
+            "image": "https://www.edamam.com/food-img/4d6/4d651eaa8a353647746290c7a9b29d84.jpg"
+          },
+          {
+            "text": "* 1 medium onion, chopped",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "onion",
+            "weight": 110.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bmrvi4ob4binw9a5m7l07amlfcoy",
+            "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+          },
+          {
+            "text": "* 3 garlic clove, chopped",
+            "quantity": 3.0,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 9.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": "* 1 teaspoon basil",
+            "quantity": 1.0,
+            "measure": "teaspoon",
+            "food": "basil",
+            "weight": 0.5000000000253606,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_bfeht3obd58c3gak5ehpibxgbbs6",
+            "image": "https://www.edamam.com/food-img/5f1/5f1b05685ac2b404236a5d1c1f3c8c10.jpg"
+          },
+          {
+            "text": "* 1 teaspooon oregano",
+            "quantity": 1.0,
+            "measure": "teaspoon",
+            "food": "oregano",
+            "weight": 1.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_bkkw6v3bdf0sqiazmzyuiax7i8jr",
+            "image": "https://www.edamam.com/food-img/1b0/1b0eaffb1c261606e0d82fed8e9747a7.jpg"
+          },
+          {
+            "text": "* 1/4 teaspoon crushed red pepper",
+            "quantity": 0.25,
+            "measure": "teaspoon",
+            "food": "crushed red pepper",
+            "weight": 0.45,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a8iooz3aris8gba605l07brngnrx",
+            "image": "https://www.edamam.com/food-img/374/3742b9434a0fb66a45e0dd6d227ba669.jpg"
+          },
+          {
+            "text": "* 1 (6-ounce) can tomato paste",
+            "quantity": 6.0,
+            "measure": "ounce",
+            "food": "tomato paste",
+            "weight": 170.09713875,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_auu2atfal07b6gbd1a5wsawy7u0s",
+            "image": "https://www.edamam.com/food-img/aef/aef4e029118da71388e526086506053a.jpg"
+          },
+          {
+            "text": "* 1/4 cup chicken broth or beef broth",
+            "quantity": 0.25,
+            "measure": "cup",
+            "food": "chicken broth",
+            "weight": 60.0,
+            "foodCategory": "canned soup",
+            "foodId": "food_bptblvzambd16nbhewqmhaw1rnh5",
+            "image": "https://www.edamam.com/food-img/26a/26a10c4cb4e07bab54d8a687ef5ac7d8.jpg"
+          },
+          {
+            "text": "* 1 (28 ounce) can crushed tomato",
+            "quantity": 28.0,
+            "measure": "ounce",
+            "food": "crushed tomato",
+            "weight": 793.7866475000001,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_aqqtb83adjyq8ybf51yo8bsjetdh",
+            "image": null
+          },
+          {
+            "text": "* 1 (15 ounce) can tomato sauce",
+            "quantity": 15.0,
+            "measure": "ounce",
+            "food": "tomato sauce",
+            "weight": 425.242846875,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_altklniaqmdz3eb1rlf1ybjv8ihn",
+            "image": null
+          },
+          {
+            "text": "* 2 teaspoon brown sugar",
+            "quantity": 2.0,
+            "measure": "teaspoon",
+            "food": "brown sugar",
+            "weight": 6.0,
+            "foodCategory": "sugars",
+            "foodId": "food_aodgtqwbmeu5f6bxeffn0art3bga",
+            "image": "https://www.edamam.com/food-img/8c6/8c6662bd73900645c6385b51a95d9b03.jpg"
+          },
+          {
+            "text": "* 6 ounce no yolk extra broad noodle, cooked according to package",
+            "quantity": 6.0,
+            "measure": "ounce",
+            "food": "noodle",
+            "weight": 170.09713875,
+            "foodCategory": "grains",
+            "foodId": "food_aefg3gqa71nrtpbhjfo3yb36kd81",
+            "image": "https://www.edamam.com/food-img/800/800c9c0d7cef6b5474723682ffa2878d.jpg"
+          }
+        ],
+        "totalTime": 0.0,
+        "cuisineType": [
+          "american"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/05865018415b8d3e470e4e2d87d556c5?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_ec1db040ad2a5f2a633e5de5c616ab5c",
+        "label": "Asian Noodle Soup To Cure a Cold (Vegan) recipes",
+        "image": "https://www.edamam.com/web-img/285/285bd2e8c56c6371ee81fe2a7b0fe01c",
+        "source": "coffeeandquinoa.com",
+        "url": "http://www.coffeeandquinoa.com/2013/01/asian-noodle-soup-to-cure-a-cold-vegan/",
+        "yield": 4.0,
+        "ingredientLines": [
+          "1 Tbsp sesame oil",
+          "1 heaping Tbsp chopped fresh ginger",
+          "2 cloves garlic, diced",
+          "1/2 a jalapeno, seeds removed and thinly sliced",
+          "6 cups low-sodium vegetable broth (preferably one without tomatoes, such as Whole Foods 365 Organic)",
+          "3 green onions plus extra for serving, sliced",
+          "3 Tbsp reduced sodium soy sauce",
+          "1 tsp rice vinegar",
+          "3 baby bok choy, chopped",
+          "1 red pepper, thinly sliced",
+          "1 carrot, peeled and sliced into very thin coins",
+          "7 oz extra-firm tofu, cubed",
+          "5 oz soba noodles",
+          "chopped cilantro",
+          "sriracha sauce"
+        ],
+        "ingredients": [
+          {
+            "text": "1 Tbsp sesame oil",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "sesame oil",
+            "weight": 13.6,
+            "foodCategory": "Oils",
+            "foodId": "food_b2id9opa0l5afvbw2do5xa1fnz4q",
+            "image": "https://www.edamam.com/food-img/b87/b874ddcfb6770adc7a155355a902ffb8.jpg"
+          },
+          {
+            "text": "1 heaping Tbsp chopped fresh ginger",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "fresh ginger",
+            "weight": 5.99999999989856,
+            "foodCategory": "vegetables",
+            "foodId": "food_bi2ki2xb5zmmvbaiwf7ztbgktzp6",
+            "image": "https://www.edamam.com/food-img/b9c/b9c06ef451ef29513880af0a53ebbaa6.jpg"
+          },
+          {
+            "text": "2 cloves garlic, diced",
+            "quantity": 2.0,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 6.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": "1/2 a jalapeno, seeds removed and thinly sliced",
+            "quantity": 0.5,
+            "measure": "<unit>",
+            "food": "jalapeno",
+            "weight": 7.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_b7txsnbadj6plsbq27zvwah80r6y",
+            "image": "https://www.edamam.com/food-img/0df/0df9aa459870a6d477b0925c1fdb6d4c.jpg"
+          },
+          {
+            "text": "6 cups low-sodium vegetable broth (preferably one without tomatoes, such as Whole Foods 365 Organic)",
+            "quantity": 6.0,
+            "measure": "cup",
+            "food": "low-sodium vegetable broth",
+            "weight": 1362.0,
+            "foodCategory": "Vegan products",
+            "foodId": "food_bb2qjrjamst0vmam39stubtkmrs4",
+            "image": "https://www.edamam.com/food-img/e61/e6184a8681b772e5198ef0ca1919e1b7.jpg"
+          },
+          {
+            "text": "3 green onions plus extra for serving, sliced",
+            "quantity": 3.0,
+            "measure": "<unit>",
+            "food": "green onions",
+            "weight": 45.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bknlkyzbuzo27pb11whr4bttkuy6",
+            "image": "https://www.edamam.com/food-img/b89/b89986ed6aa466285bdd99bac34b3c46.jpg"
+          },
+          {
+            "text": "3 Tbsp reduced sodium soy sauce",
+            "quantity": 3.0,
+            "measure": "tablespoon",
+            "food": "reduced sodium soy sauce",
+            "weight": 42.599999999999994,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_af8xwhdbq4vg0tbqfqjysafu339b",
+            "image": "https://www.edamam.com/food-img/4bc/4bccc4c294a8dddb62020c62935e6fd8.jpg"
+          },
+          {
+            "text": "1 tsp rice vinegar",
+            "quantity": 1.0,
+            "measure": "teaspoon",
+            "food": "rice vinegar",
+            "weight": 5.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_axlcd4tack2d20bveizm4ayu0h2w",
+            "image": "https://www.edamam.com/food-img/5f6/5f69b84c399d778c4728e9ab4f8065a2.jpg"
+          },
+          {
+            "text": "3 baby bok choy, chopped",
+            "quantity": 3.0,
+            "measure": "<unit>",
+            "food": "bok choy",
+            "weight": 227.99999999999974,
+            "foodCategory": "vegetables",
+            "foodId": "food_bq7w3usaxapk30b8utp6lasy79lv",
+            "image": "https://www.edamam.com/food-img/c76/c7698a4dc6baecd186476820b6b91cdc.jpg"
+          },
+          {
+            "text": "1 red pepper, thinly sliced",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "red pepper",
+            "weight": 119.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_a8g63g7ak6bnmvbu7agxibp4a0dy",
+            "image": "https://www.edamam.com/food-img/4dc/4dc48b1a506d334b4ab6671b9d56a18f.jpeg"
+          },
+          {
+            "text": "1 carrot, peeled and sliced into very thin coins",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "carrot",
+            "weight": 61.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_ai215e5b85pdh5ajd4aafa3w2zm8",
+            "image": "https://www.edamam.com/food-img/121/121e33fce0bb9546ed7d060b6c114e29.jpg"
+          },
+          {
+            "text": "7 oz extra-firm tofu, cubed",
+            "quantity": 7.0,
+            "measure": "ounce",
+            "food": "tofu",
+            "weight": 198.44666187500002,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_a269ixea1yf51xbfwgnq2boiwc7x",
+            "image": "https://www.edamam.com/food-img/b6a/b6ae13c3cfe37e16f820840f90231bff.jpg"
+          },
+          {
+            "text": "5 oz soba noodles",
+            "quantity": 5.0,
+            "measure": "ounce",
+            "food": "soba noodles",
+            "weight": 141.747615625,
+            "foodCategory": "grains",
+            "foodId": "food_aqaha3dafwlf4qa5jg1b2bwzz8jm",
+            "image": "https://www.edamam.com/food-img/85c/85c4c240b7838a2de80c5dcab3107e97.jpg"
+          },
+          {
+            "text": "chopped cilantro",
+            "quantity": 0.0,
+            "measure": null,
+            "food": "cilantro",
+            "weight": 22.35394277499898,
+            "foodCategory": "vegetables",
+            "foodId": "food_alhzhuwb4lc7jnb5s6f02by60bzp",
+            "image": "https://www.edamam.com/food-img/d57/d57e375b6ff99a90c7ee2b1990a1af36.jpg"
+          }
+        ],
+        "totalTime": 30.0,
+        "cuisineType": [
+          "asian"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "soup"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/ec1db040ad2a5f2a633e5de5c616ab5c?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_6de80e222aeb9ca4420e979442329641",
+        "label": "Roasted Chicken Ramen",
+        "image": "https://www.edamam.com/web-img/30b/30bbaf0dbd1af81c9ab939608724e380.jpg",
+        "source": "How Sweet It Is",
+        "url": "http://www.howsweeteats.com/2014/09/roasted-chicken-ramen/",
+        "yield": 4.0,
+        "ingredientLines": [
+          "4 large eggs",
+          "1 tablespoon unsalted butter",
+          "1 cup sweet corn",
+          "1 tablespoons olive oil",
+          "8 ounces fresh spinach",
+          "1 quart chicken stock",
+          "1 teaspoon red miso paste",
+          "6 ounces ramen noodles",
+          "6 ounces cooked chicken (I used leftover garlic butter roasted chicken)",
+          "4 green onions, thinly sliced",
+          "toasted sesame oil for drizzling",
+          "nori/seaweed pieces for serving"
+        ],
+        "ingredients": [
+          {
+            "text": "4 large eggs",
+            "quantity": 4.0,
+            "measure": "<unit>",
+            "food": "eggs",
+            "weight": 200.0,
+            "foodCategory": "Eggs",
+            "foodId": "food_bhpradua77pk16aipcvzeayg732r",
+            "image": "https://www.edamam.com/food-img/a7e/a7ec7c337cb47c6550b3b118e357f077.jpg"
+          },
+          {
+            "text": "1 tablespoon unsalted butter",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "unsalted butter",
+            "weight": 14.2,
+            "foodCategory": "Dairy",
+            "foodId": "food_awz3iefajbk1fwahq9logahmgltj",
+            "image": "https://www.edamam.com/food-img/713/71397239b670d88c04faa8d05035cab4.jpg"
+          },
+          {
+            "text": "1 cup sweet corn",
+            "quantity": 1.0,
+            "measure": "cup",
+            "food": "sweet corn",
+            "weight": 145.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bld46lwb614pf9awsxki0b3pbq2n",
+            "image": "https://www.edamam.com/food-img/eb5/eb5e11afb9f697720b2de2e0e0e27d8d.jpg"
+          },
+          {
+            "text": "1 tablespoons olive oil",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "olive oil",
+            "weight": 13.5,
+            "foodCategory": "Oils",
+            "foodId": "food_b1d1icuad3iktrbqby0hiagafaz7",
+            "image": "https://www.edamam.com/food-img/4d6/4d651eaa8a353647746290c7a9b29d84.jpg"
+          },
+          {
+            "text": "8 ounces fresh spinach",
+            "quantity": 8.0,
+            "measure": "ounce",
+            "food": "spinach",
+            "weight": 226.796185,
+            "foodCategory": "vegetables",
+            "foodId": "food_aoceuc6bshdej1bbsdammbnj6l6o",
+            "image": "https://www.edamam.com/food-img/e6e/e6e4be375c4554ce01c8ea75232efaa6.jpg"
+          },
+          {
+            "text": "1 quart chicken stock",
+            "quantity": 1.0,
+            "measure": "quart",
+            "food": "chicken stock",
+            "weight": 960.0,
+            "foodCategory": "canned soup",
+            "foodId": "food_bptblvzambd16nbhewqmhaw1rnh5",
+            "image": "https://www.edamam.com/food-img/26a/26a10c4cb4e07bab54d8a687ef5ac7d8.jpg"
+          },
+          {
+            "text": "1 teaspoon red miso paste",
+            "quantity": 1.0,
+            "measure": "teaspoon",
+            "food": "miso paste",
+            "weight": 5.729166666957256,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_agp37bpbhswz7sa7hlwj7b8vzcbt",
+            "image": "https://www.edamam.com/food-img/352/3525e5a38bb13c74aa34ef6c0273bf33.jpg"
+          },
+          {
+            "text": "6 ounces ramen noodles",
+            "quantity": 6.0,
+            "measure": "ounce",
+            "food": "ramen noodles",
+            "weight": 170.09713875,
+            "foodCategory": "canned soup",
+            "foodId": "food_ayweivebq83j17badscbyax7f88x",
+            "image": "https://www.edamam.com/food-img/c52/c523bc0bbc9fb862315198af8749be5d.jpg"
+          },
+          {
+            "text": "6 ounces cooked chicken (I used leftover garlic butter roasted chicken)",
+            "quantity": 6.0,
+            "measure": "ounce",
+            "food": "cooked chicken",
+            "weight": 170.09713875,
+            "foodCategory": "Poultry",
+            "foodId": "food_a59p480aae04fubjz0yo7a5auh4m",
+            "image": "https://www.edamam.com/food-img/c81/c81b9affb7c9c29a861e8566bd2d0829.jpg"
+          },
+          {
+            "text": "4 green onions, thinly sliced",
+            "quantity": 4.0,
+            "measure": "<unit>",
+            "food": "green onions",
+            "weight": 60.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bknlkyzbuzo27pb11whr4bttkuy6",
+            "image": "https://www.edamam.com/food-img/b89/b89986ed6aa466285bdd99bac34b3c46.jpg"
+          },
+          {
+            "text": "toasted sesame oil for drizzling",
+            "quantity": 0.0,
+            "measure": null,
+            "food": "toasted sesame oil",
+            "weight": 26.765066956670616,
+            "foodCategory": "Oils",
+            "foodId": "food_b2id9opa0l5afvbw2do5xa1fnz4q",
+            "image": "https://www.edamam.com/food-img/b87/b874ddcfb6770adc7a155355a902ffb8.jpg"
+          },
+          {
+            "text": "nori/seaweed pieces for serving",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "nori",
+            "weight": 2.6,
+            "foodCategory": "vegetables",
+            "foodId": "food_bn5prizbgsrr0tact46ataaj7b5p",
+            "image": "https://www.edamam.com/food-img/193/1935b3e53c576e0f097393084d11b629.jpg"
+          }
+        ],
+        "totalTime": 0.0,
+        "cuisineType": [
+          "japanese"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/6de80e222aeb9ca4420e979442329641?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_85b5aeadbdee9f35c33c56ca8941b26c",
+        "label": "Ramen Noodle Stir-Fry recipes",
+        "image": "https://www.edamam.com/web-img/a3e/a3eee81ba167ffe8dfba3e70dd092942",
+        "source": "Taste of Home",
+        "url": "http://www.tasteofhome.com/recipes/ramen-noodle-stir-fry",
+        "yield": 2.0,
+        "ingredientLines": [
+          "1 package (3 ounces) ramen noodles",
+          "1-1/2 cups hot water",
+          "8 ounces boneless skinless chicken breasts, cut into 2-inch strips",
+          "2 teaspoons canola oil, divided",
+          "1 large green pepper, cubed",
+          "2/3 cup chopped onion",
+          "1 garlic clove, minced",
+          "1/2 cup reduced-sodium chicken broth",
+          "2 teaspoons reduced-sodium soy sauce",
+          "1 teaspoon salt-free seasoning blend",
+          "1 small tomato, cut into wedges"
+        ],
+        "ingredients": [
+          {
+            "text": "1 package (3 ounces) ramen noodles",
+            "quantity": 3.0,
+            "measure": "ounce",
+            "food": "ramen noodles",
+            "weight": 85.048569375,
+            "foodCategory": "canned soup",
+            "foodId": "food_ayweivebq83j17badscbyax7f88x",
+            "image": "https://www.edamam.com/food-img/c52/c523bc0bbc9fb862315198af8749be5d.jpg"
+          },
+          {
+            "text": "1-1/2 cups hot water",
+            "quantity": 1.5,
+            "measure": "cup",
+            "food": "water",
+            "weight": 355.5,
+            "foodCategory": "water",
+            "foodId": "food_a99vzubbk1ayrsad318rvbzr3dh0",
+            "image": "https://www.edamam.com/food-img/5dd/5dd9d1361847b2ca53c4b19a8f92627e.jpg"
+          },
+          {
+            "text": "8 ounces boneless skinless chicken breasts, cut into 2-inch strips",
+            "quantity": 8.0,
+            "measure": "ounce",
+            "food": "boneless skinless chicken breasts",
+            "weight": 226.796185,
+            "foodCategory": "Poultry",
+            "foodId": "food_bdrxu94aj3x2djbpur8dhagfhkcn",
+            "image": "https://www.edamam.com/food-img/da5/da510379d3650787338ca16fb69f4c94.jpg"
+          },
+          {
+            "text": "2 teaspoons canola oil, divided",
+            "quantity": 2.0,
+            "measure": "teaspoon",
+            "food": "canola oil",
+            "weight": 9.0,
+            "foodCategory": "Oils",
+            "foodId": "food_bk9p9aaavhvoq4bqsnprobpsiuxs",
+            "image": "https://www.edamam.com/food-img/07e/07e106ab3536d57428e5c46d009038f8.jpg"
+          },
+          {
+            "text": "1 large green pepper, cubed",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "green pepper",
+            "weight": 164.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bz8rcwobbzm7zhb3wh2n7aznivou",
+            "image": "https://www.edamam.com/food-img/629/629dc9fddc1f8aec27fa337dd6ce2b7c.jpg"
+          },
+          {
+            "text": "2/3 cup chopped onion",
+            "quantity": 0.6666666666666666,
+            "measure": "cup",
+            "food": "onion",
+            "weight": 106.66666666666666,
+            "foodCategory": "vegetables",
+            "foodId": "food_bmrvi4ob4binw9a5m7l07amlfcoy",
+            "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+          },
+          {
+            "text": "1 garlic clove, minced",
+            "quantity": 1.0,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 3.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": "1/2 cup reduced-sodium chicken broth",
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "reduced-sodium chicken broth",
+            "weight": 120.0,
+            "foodCategory": "canned soup",
+            "foodId": "food_ayzeplba2uirz7avuacubb7o4qwd",
+            "image": "https://www.edamam.com/food-img/7fa/7fa80c55623028f33f40c432ef8fa5b4.jpg"
+          },
+          {
+            "text": "2 teaspoons reduced-sodium soy sauce",
+            "quantity": 2.0,
+            "measure": "teaspoon",
+            "food": "reduced-sodium soy sauce",
+            "weight": 9.0,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_af8xwhdbq4vg0tbqfqjysafu339b",
+            "image": "https://www.edamam.com/food-img/4bc/4bccc4c294a8dddb62020c62935e6fd8.jpg"
+          },
+          {
+            "text": "1 teaspoon salt-free seasoning blend",
+            "quantity": 1.0,
+            "measure": "teaspoon",
+            "food": "seasoning",
+            "weight": 1.5,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_aj7w3xab0epj7cbgkbkpwadysovd",
+            "image": "https://www.edamam.com/food-img/c23/c23e20823b442067307aa436969358f1.jpg"
+          },
+          {
+            "text": "1 small tomato, cut into wedges",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "tomato",
+            "weight": 92.25,
+            "foodCategory": "vegetables",
+            "foodId": "food_a6k79rrahp8fe2b26zussa3wtkqh",
+            "image": "https://www.edamam.com/food-img/23e/23e727a14f1035bdc2733bb0477efbd2.jpg"
+          }
+        ],
+        "totalTime": 15.0,
+        "cuisineType": [
+          "japanese"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/85b5aeadbdee9f35c33c56ca8941b26c?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_1528fdd84f38a558964c8d786bce73e2",
+        "label": "GOLDEN BEET NOODLES WITH HARISSA CHICKEN",
+        "image": "https://www.edamam.com/web-img/d98/d9820d26978a6567dbbb76c6ccbe10eb.jpg",
+        "source": "brainstormhealth.co.uk",
+        "url": "https://www.brainstormhealth.co.uk/recipes/golden-beet-noodles-with-harissa-chicken/",
+        "yield": 4.0,
+        "ingredientLines": [
+          "2 whole chicken breast",
+          "2 tbsp Harissa sauce",
+          "2 cloves chopped garlic",
+          "4 single minced spring onions",
+          "4 large spiralised golden beets",
+          "1/2 cup bone broth",
+          "1 tsp honey",
+          "1/2 whole freshly squeezed lemon juice",
+          "1 tbsp extra virgin olive oil",
+          "1/2 tsp salt"
+        ],
+        "ingredients": [
+          {
+            "text": "2 whole chicken breast",
+            "quantity": 2.0,
+            "measure": "<unit>",
+            "food": "chicken breast",
+            "weight": 348.0,
+            "foodCategory": "Poultry",
+            "foodId": "food_a9hdg97b1sqqs5aj1al75bbo5iyt",
+            "image": "https://www.edamam.com/food-img/093/093749f4c93e448119fc81976d2c3067.jpg"
+          },
+          {
+            "text": "2 tbsp Harissa sauce",
+            "quantity": 2.0,
+            "measure": "tablespoon",
+            "food": "Harissa",
+            "weight": 30.0,
+            "foodCategory": "canned soup",
+            "foodId": "food_ayjzfd9bhvwqorb6m5iq3bekq7cj",
+            "image": "https://www.edamam.com/food-img/12f/12f4b9a8e738f35b7dd787a5360e4a45.jpg"
+          },
+          {
+            "text": "2 cloves chopped garlic",
+            "quantity": 2.0,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 6.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": "4 single minced spring onions",
+            "quantity": 4.0,
+            "measure": "<unit>",
+            "food": "spring onions",
+            "weight": 60.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bknlkyzbuzo27pb11whr4bttkuy6",
+            "image": "https://www.edamam.com/food-img/b89/b89986ed6aa466285bdd99bac34b3c46.jpg"
+          },
+          {
+            "text": "4 large spiralised golden beets",
+            "quantity": 4.0,
+            "measure": "<unit>",
+            "food": "beets",
+            "weight": 328.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bofj0lnbbcv11zblx10sob7clgvp",
+            "image": "https://www.edamam.com/food-img/ec3/ec3d96cdf3b58183c1aad01875b93805.jpg"
+          },
+          {
+            "text": "1/2 cup bone broth",
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "broth",
+            "weight": 113.5,
+            "foodCategory": "Vegan products",
+            "foodId": "food_bb2qjrjamst0vmam39stubtkmrs4",
+            "image": "https://www.edamam.com/food-img/e61/e6184a8681b772e5198ef0ca1919e1b7.jpg"
+          },
+          {
+            "text": "1 tsp honey",
+            "quantity": 1.0,
+            "measure": "teaspoon",
+            "food": "honey",
+            "weight": 7.0625000003582175,
+            "foodCategory": null,
+            "foodId": "food_bn6aoj9atkqx8fbkli859bbbxx62",
+            "image": "https://www.edamam.com/food-img/198/198c7b25c23b4235b4cc33818c7b335f.jpg"
+          },
+          {
+            "text": "1/2 whole freshly squeezed lemon juice",
+            "quantity": 0.5,
+            "measure": "<unit>",
+            "food": "lemon juice",
+            "weight": 24.0,
+            "foodCategory": "100% juice",
+            "foodId": "food_bglm6vxahuauteb0n6ynfbg9eryu",
+            "image": "https://www.edamam.com/food-img/e31/e310952d214e78a4cb8b73f30ceeaaf2.jpg"
+          },
+          {
+            "text": "1 tbsp extra virgin olive oil",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "extra virgin olive oil",
+            "weight": 13.5,
+            "foodCategory": "Oils",
+            "foodId": "food_b1d1icuad3iktrbqby0hiagafaz7",
+            "image": "https://www.edamam.com/food-img/4d6/4d651eaa8a353647746290c7a9b29d84.jpg"
+          },
+          {
+            "text": "1/2 tsp salt",
+            "quantity": 0.5,
+            "measure": "teaspoon",
+            "food": "salt",
+            "weight": 3.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          }
+        ],
+        "totalTime": 0.0,
+        "cuisineType": [
+          "asian"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/1528fdd84f38a558964c8d786bce73e2?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_2d9a4d5139eb24a0214b43b7758af385",
+        "label": "Beef Stroganoff",
+        "image": "https://www.edamam.com/web-img/8c1/8c15b9a6cc170b1ad09a5fed6f8a2abf.jpeg",
+        "source": "Food Network",
+        "url": "https://www.foodnetwork.com/recipes/beef-stroganoff-recipe3-1941593",
+        "yield": 6.0,
+        "ingredientLines": [
+          "2 tablespoons vegetable oil",
+          "2 1/2 pounds beef tenderloin, thinly sliced",
+          "2 teaspoons kosher salt",
+          "1 teaspoon freshly ground black pepper",
+          "2 tablespoons clarified butter",
+          "1 cup sliced cremini mushrooms",
+          "1/2 cup chopped onion",
+          "1/4 cup white wine",
+          "2 tablespoons tomato paste",
+          "2 teaspoons Dijon mustard",
+          "3 cups demi-glace*",
+          "1 1/4 cups sour cream",
+          "Serving suggestion: egg noodles, cooked."
+        ],
+        "ingredients": [
+          {
+            "text": "2 tablespoons vegetable oil",
+            "quantity": 2.0,
+            "measure": "tablespoon",
+            "food": "vegetable oil",
+            "weight": 28.0,
+            "foodCategory": "Oils",
+            "foodId": "food_bt1mzi2ah2sfg8bv7no1qai83w8s",
+            "image": "https://www.edamam.com/food-img/6e5/6e51a63a6300a8ea1b4c4cc68dfaba33.jpg"
+          },
+          {
+            "text": "2 1/2 pounds beef tenderloin, thinly sliced",
+            "quantity": 2.5,
+            "measure": "pound",
+            "food": "beef tenderloin",
+            "weight": 1133.980925,
+            "foodCategory": "meats",
+            "foodId": "food_au8m3zia67rlqoavmsp0cbvzhwiq",
+            "image": "https://www.edamam.com/food-img/f70/f70890fe73fc9e333aa584a88a61e351.jpg"
+          },
+          {
+            "text": "2 teaspoons kosher salt",
+            "quantity": 2.0,
+            "measure": "teaspoon",
+            "food": "kosher salt",
+            "weight": 9.70833333382575,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a1vgrj1bs8rd1majvmd9ubz8ttkg",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": "1 teaspoon freshly ground black pepper",
+            "quantity": 1.0,
+            "measure": "teaspoon",
+            "food": "black pepper",
+            "weight": 2.3,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b6ywzluaaxv02wad7s1r9ag4py89",
+            "image": "https://www.edamam.com/food-img/c6e/c6e5c3bd8d3bc15175d9766971a4d1b2.jpg"
+          },
+          {
+            "text": "2 tablespoons clarified butter",
+            "quantity": 2.0,
+            "measure": "tablespoon",
+            "food": "clarified butter",
+            "weight": 25.6,
+            "foodCategory": "Dairy",
+            "foodId": "food_bt9uvvxacpohzjblxojh1behk63g",
+            "image": "https://www.edamam.com/food-img/2b5/2b504c036c64481b224c9d74cc4a82e0.jpg"
+          },
+          {
+            "text": "1 cup sliced cremini mushrooms",
+            "quantity": 1.0,
+            "measure": "cup",
+            "food": "cremini mushrooms",
+            "weight": 72.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bizlqkfby3d954bfyuxhsbhybslp",
+            "image": "https://www.edamam.com/food-img/17a/17a9ef54308a434004be9ba16c0eea03.jpg"
+          },
+          {
+            "text": "1/2 cup chopped onion",
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "onion",
+            "weight": 80.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bmrvi4ob4binw9a5m7l07amlfcoy",
+            "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+          },
+          {
+            "text": "1/4 cup white wine",
+            "quantity": 0.25,
+            "measure": "cup",
+            "food": "white wine",
+            "weight": 58.8,
+            "foodCategory": "wines",
+            "foodId": "food_bn44h7baron9ufaoxinmya8l0yye",
+            "image": "https://www.edamam.com/food-img/a71/a718cf3c52add522128929f1f324d2ab.jpg"
+          },
+          {
+            "text": "2 tablespoons tomato paste",
+            "quantity": 2.0,
+            "measure": "tablespoon",
+            "food": "tomato paste",
+            "weight": 32.0,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_auu2atfal07b6gbd1a5wsawy7u0s",
+            "image": "https://www.edamam.com/food-img/aef/aef4e029118da71388e526086506053a.jpg"
+          },
+          {
+            "text": "2 teaspoons Dijon mustard",
+            "quantity": 2.0,
+            "measure": "teaspoon",
+            "food": "Dijon mustard",
+            "weight": 10.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a34cdj5b0kyuhfbov30xcb50u4dv",
+            "image": "https://www.edamam.com/food-img/e23/e238f2e4cfa6aa1a30f46dc73e7344eb.jpg"
+          },
+          {
+            "text": "3 cups demi-glace*",
+            "quantity": 3.0,
+            "measure": "cup",
+            "food": "demi-glace",
+            "weight": 744.0,
+            "foodCategory": "canned soup",
+            "foodId": "food_aqrtihoalch959boidqphajfcnkg",
+            "image": "https://www.edamam.com/food-img/da9/da9ad40068466db8769f0e905b12eab4.jpg"
+          },
+          {
+            "text": "1 1/4 cups sour cream",
+            "quantity": 1.25,
+            "measure": "cup",
+            "food": "sour cream",
+            "weight": 287.5,
+            "foodCategory": "Dairy",
+            "foodId": "food_adp9fcubzl3lr7bcvzn3rbfiiiwq",
+            "image": "https://www.edamam.com/food-img/f9d/f9d6183267b041b0aff9a10b89c9c15f.jpg"
+          },
+          {
+            "text": "Serving suggestion: egg noodles, cooked.",
+            "quantity": 1.0,
+            "measure": "serving",
+            "food": "egg noodles",
+            "weight": 200.0,
+            "foodCategory": "grains",
+            "foodId": "food_aefg3gqa71nrtpbhjfo3yb36kd81",
+            "image": "https://www.edamam.com/food-img/800/800c9c0d7cef6b5474723682ffa2878d.jpg"
+          }
+        ],
+        "totalTime": 30.0,
+        "cuisineType": [
+          "eastern europe"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/2d9a4d5139eb24a0214b43b7758af385?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_0d1bc7aaf2af34a7f83f0fffb05433a1",
+        "label": "Italian Noodle Casserole Recipe 4",
+        "image": "https://www.edamam.com/web-img/4c0/4c00c813aba9deee23ba79334bd910fc.jpg",
+        "source": "Taste of Home",
+        "url": "http://www.tasteofhome.com/Recipes/Italian-Noodle-Casserole",
+        "yield": 6.0,
+        "ingredientLines": [
+          "1 pound ground beef",
+          "1 package (8 ounces) wide egg noodles",
+          "1 tablespoon olive oil",
+          "2 cups (8 ounces) shredded colby cheese, divided",
+          "2 cans (15 ounces each) tomato sauce",
+          "1 can (15-1/2 ounces) great northern beans, rinsed and drained",
+          "1 can (14-1/2 ounces) italian stewed tomatoes",
+          "1 can (10-3/4 ounces) condensed tomato soup, undiluted",
+          "2 teaspoons italian seasoning",
+          "2 teaspoons dried parsley flakes",
+          "1/8 teaspoon each onion salt, garlic salt and pepper",
+          "2 tablespoons grated parmesan cheese"
+        ],
+        "ingredients": [
+          {
+            "text": "1 pound ground beef",
+            "quantity": 1.0,
+            "measure": "pound",
+            "food": "ground beef",
+            "weight": 453.59237,
+            "foodCategory": "meats",
+            "foodId": "food_boq91pbbhklr6sb0d9sbybzgklkm",
+            "image": "https://www.edamam.com/food-img/cfa/cfae8f9276eaf8f0d9349ba662744a0c.jpg"
+          },
+          {
+            "text": "1 package (8 ounces) wide egg noodles",
+            "quantity": 8.0,
+            "measure": "ounce",
+            "food": "wide egg noodles",
+            "weight": 226.796185,
+            "foodCategory": "grains",
+            "foodId": "food_aefg3gqa71nrtpbhjfo3yb36kd81",
+            "image": "https://www.edamam.com/food-img/800/800c9c0d7cef6b5474723682ffa2878d.jpg"
+          },
+          {
+            "text": "1 tablespoon olive oil",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "olive oil",
+            "weight": 13.5,
+            "foodCategory": "Oils",
+            "foodId": "food_b1d1icuad3iktrbqby0hiagafaz7",
+            "image": "https://www.edamam.com/food-img/4d6/4d651eaa8a353647746290c7a9b29d84.jpg"
+          },
+          {
+            "text": "2 cups (8 ounces) shredded colby cheese, divided",
+            "quantity": 8.0,
+            "measure": "ounce",
+            "food": "colby cheese",
+            "weight": 226.796185,
+            "foodCategory": "Cheese",
+            "foodId": "food_a2uzu1hbj0yi8nb6a0rbkb5gvgz4",
+            "image": "https://www.edamam.com/food-img/a6a/a6a3cb346882b674c5b5086352644ec5.jpg"
+          },
+          {
+            "text": "2 cans (15 ounces each) tomato sauce",
+            "quantity": 30.0,
+            "measure": "ounce",
+            "food": "tomato sauce",
+            "weight": 850.48569375,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_altklniaqmdz3eb1rlf1ybjv8ihn",
+            "image": null
+          },
+          {
+            "text": "1 can (15-1/2 ounces) great northern beans, rinsed and drained",
+            "quantity": 15.5,
+            "measure": "ounce",
+            "food": "great northern beans",
+            "weight": 439.4176084375,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_aw73yp6aaogvsaades1ewa0z9vqk",
+            "image": "https://www.edamam.com/food-img/332/3321463d8f7b50f77d7c33a42908d382.jpg"
+          },
+          {
+            "text": "1 can (14-1/2 ounces) italian stewed tomatoes",
+            "quantity": 14.5,
+            "measure": "ounce",
+            "food": "stewed tomatoes",
+            "weight": 411.0680853125,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_bnmkkwqa9h2p87bz171eoby0bsey",
+            "image": "https://www.edamam.com/food-img/d4e/d4e8110d51db4311bc894167a8f77816.jpg"
+          },
+          {
+            "text": "1 can (10-3/4 ounces) condensed tomato soup, undiluted",
+            "quantity": 10.75,
+            "measure": "ounce",
+            "food": "condensed tomato soup",
+            "weight": 304.75737359375,
+            "foodCategory": "canned soup",
+            "foodId": "food_afl3r1eblt1f1ga6xybzcaq3zn64",
+            "image": "https://www.edamam.com/food-img/f3f/f3ff5365fe12195d997326fcd73a7a76.jpg"
+          },
+          {
+            "text": "2 teaspoons italian seasoning",
+            "quantity": 2.0,
+            "measure": "teaspoon",
+            "food": "italian seasoning",
+            "weight": 2.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_avsq22zadwyb5cb5sl1byaa4mbo8",
+            "image": "https://www.edamam.com/food-img/89b/89b37a04e46e052671d73addcb84aa51.jpg"
+          },
+          {
+            "text": "2 teaspoons dried parsley flakes",
+            "quantity": 2.0,
+            "measure": "teaspoon",
+            "food": "dried parsley",
+            "weight": 1.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a5oe5hianlpew5bik62kxb25wpjt",
+            "image": "https://www.edamam.com/food-img/e45/e453e0756d9ebe39fbcdae1594587ae1.jpg"
+          },
+          {
+            "text": "1/8 teaspoon each onion salt, garlic salt and pepper",
+            "quantity": 0.125,
+            "measure": "teaspoon",
+            "food": "salt",
+            "weight": 0.75,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": "1/8 teaspoon each onion salt, garlic salt and pepper",
+            "quantity": 0.125,
+            "measure": "teaspoon",
+            "food": "garlic salt",
+            "weight": 0.3875,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_boq94r1a036492bdup9u1beyph0l",
+            "image": "https://www.edamam.com/food-img/5c3/5c3db1d5a1a16b1f0a74796f74dd5985.jpg"
+          },
+          {
+            "text": "1/8 teaspoon each onion salt, garlic salt and pepper",
+            "quantity": 0.125,
+            "measure": "teaspoon",
+            "food": "pepper",
+            "weight": 0.3625,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b6ywzluaaxv02wad7s1r9ag4py89",
+            "image": "https://www.edamam.com/food-img/c6e/c6e5c3bd8d3bc15175d9766971a4d1b2.jpg"
+          },
+          {
+            "text": "2 tablespoons grated parmesan cheese",
+            "quantity": 2.0,
+            "measure": "tablespoon",
+            "food": "parmesan cheese",
+            "weight": 18.58828124968574,
+            "foodCategory": "Cheese",
+            "foodId": "food_a104ppxa06d3emb272fkcab3cugd",
+            "image": "https://www.edamam.com/food-img/f58/f588658627c59d5041e4664119829aa9.jpg"
+          }
+        ],
+        "totalTime": 50.0,
+        "cuisineType": [
+          "italian",
+          "asian"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/0d1bc7aaf2af34a7f83f0fffb05433a1?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_490ccb15af3a39abca53fc0447b6c564",
+        "label": "Classic Chicken Noodle Soup recipes",
+        "image": "https://www.edamam.com/web-img/fb6/fb6d1d19a2edcb806b68208791b14974",
+        "source": "Allrecipes",
+        "url": "http://allrecipes.com/recipe/76958/classic-chicken-noodle-soup/",
+        "yield": 8.0,
+        "ingredientLines": [
+          "1 recipe Fast Chicken Soup Base",
+          "3 cups egg noodles",
+          "1 cup frozen green peas",
+          "1/2 cup chopped fresh parsley",
+          "salt",
+          "ground black pepper"
+        ],
+        "ingredients": [
+          {
+            "text": "1 recipe Fast Chicken Soup Base",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "Chicken",
+            "weight": 1200.0,
+            "foodCategory": "Poultry",
+            "foodId": "food_bmyxrshbfao9s1amjrvhoauob6mo",
+            "image": "https://www.edamam.com/food-img/d33/d338229d774a743f7858f6764e095878.jpg"
+          },
+          {
+            "text": "3 cups egg noodles",
+            "quantity": 3.0,
+            "measure": "cup",
+            "food": "egg noodles",
+            "weight": 114.0,
+            "foodCategory": "grains",
+            "foodId": "food_aefg3gqa71nrtpbhjfo3yb36kd81",
+            "image": "https://www.edamam.com/food-img/800/800c9c0d7cef6b5474723682ffa2878d.jpg"
+          },
+          {
+            "text": "1 cup frozen green peas",
+            "quantity": 1.0,
+            "measure": "cup",
+            "food": "green peas",
+            "weight": 145.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bbi35jtbjt7un9bsa2m7eazlsk91",
+            "image": "https://www.edamam.com/food-img/5ed/5ed641d646c028598a90bdb9ece34fc8.jpg"
+          },
+          {
+            "text": "1/2 cup chopped fresh parsley",
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "parsley",
+            "weight": 30.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_b244pqdazw24zobr5vqu2bf0uid8",
+            "image": "https://www.edamam.com/food-img/46a/46a132e96626d7989b4d6ed8c91f4da0.jpg"
+          },
+          {
+            "text": "salt",
+            "quantity": 0.0,
+            "measure": null,
+            "food": "salt",
+            "weight": 8.934000000000001,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": "ground black pepper",
+            "quantity": 0.0,
+            "measure": null,
+            "food": "black pepper",
+            "weight": 4.4670000000000005,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b6ywzluaaxv02wad7s1r9ag4py89",
+            "image": "https://www.edamam.com/food-img/c6e/c6e5c3bd8d3bc15175d9766971a4d1b2.jpg"
+          }
+        ],
+        "totalTime": 35.0,
+        "cuisineType": [
+          "american"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "soup"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/490ccb15af3a39abca53fc0447b6c564?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_76bff27336bd9037e74fc58ee2d1fcbb",
+        "label": "Vegan Lasagna",
+        "image": "https://www.edamam.com/web-img/402/4024ffcf624579d9531bb28f7b66117d.jpg",
+        "source": "The Daily Meal",
+        "url": "http://www.thedailymeal.com/vegan-lasagna-recipe",
+        "yield": 4.0,
+        "ingredientLines": [
+          "1 tablespoon olive oil",
+          "2 medium-sized yellow onions",
+          "3 cloves garlic",
+          "8 ounces spinach",
+          "1/2 teaspoon dried basil",
+          "1/2 teaspoon thyme",
+          "1/2 teaspoon herbes de Provence",
+          "1/2 cup nutritional yeast",
+          "7 ounces silken tofu",
+          "One 26-ounce jar tomato sauce",
+          "One 8-ounce box no-boil lasagna noodles",
+          "1/2 cup vegan mozzarella-style cheese, preferably Daiya brand"
+        ],
+        "ingredients": [
+          {
+            "text": "1 tablespoon olive oil",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "olive oil",
+            "weight": 13.5,
+            "foodCategory": "Oils",
+            "foodId": "food_b1d1icuad3iktrbqby0hiagafaz7",
+            "image": "https://www.edamam.com/food-img/4d6/4d651eaa8a353647746290c7a9b29d84.jpg"
+          },
+          {
+            "text": "2 medium-sized yellow onions",
+            "quantity": 2.0,
+            "measure": "<unit>",
+            "food": "yellow onions",
+            "weight": 220.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bmrvi4ob4binw9a5m7l07amlfcoy",
+            "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+          },
+          {
+            "text": "3 cloves garlic",
+            "quantity": 3.0,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 9.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": "8 ounces spinach",
+            "quantity": 8.0,
+            "measure": "ounce",
+            "food": "spinach",
+            "weight": 226.796185,
+            "foodCategory": "vegetables",
+            "foodId": "food_aoceuc6bshdej1bbsdammbnj6l6o",
+            "image": "https://www.edamam.com/food-img/e6e/e6e4be375c4554ce01c8ea75232efaa6.jpg"
+          },
+          {
+            "text": "1/2 teaspoon dried basil",
+            "quantity": 0.5,
+            "measure": "teaspoon",
+            "food": "dried basil",
+            "weight": 0.35,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_abrithza96sev8ae5za0paqf42o0",
+            "image": "https://www.edamam.com/food-img/49a/49a878702f9b654e1a965f2f2618a341.jpg"
+          },
+          {
+            "text": "1/2 teaspoon thyme",
+            "quantity": 0.5,
+            "measure": "teaspoon",
+            "food": "thyme",
+            "weight": 0.4,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b3o3cj7a5gskecb0ufphtadnbfqb",
+            "image": "https://www.edamam.com/food-img/3e7/3e7cf3c8d767a90b906447f5e74059f7.jpg"
+          },
+          {
+            "text": "1/2 teaspoon herbes de Provence",
+            "quantity": 0.5,
+            "measure": "teaspoon",
+            "food": "herbes de Provence",
+            "weight": 0.5,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_avsq22zadwyb5cb5sl1byaa4mbo8",
+            "image": "https://www.edamam.com/food-img/89b/89b37a04e46e052671d73addcb84aa51.jpg"
+          },
+          {
+            "text": "1/2 cup nutritional yeast",
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "nutritional yeast",
+            "weight": 128.0,
+            "foodCategory": "Vegan products",
+            "foodId": "food_abjagi2b7qlt18aryyugvbnm0tlu",
+            "image": null
+          },
+          {
+            "text": "7 ounces silken tofu",
+            "quantity": 7.0,
+            "measure": "ounce",
+            "food": "tofu",
+            "weight": 198.44666187500002,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_a269ixea1yf51xbfwgnq2boiwc7x",
+            "image": "https://www.edamam.com/food-img/b6a/b6ae13c3cfe37e16f820840f90231bff.jpg"
+          },
+          {
+            "text": "One 26-ounce jar tomato sauce",
+            "quantity": 26.0,
+            "measure": "ounce",
+            "food": "tomato sauce",
+            "weight": 737.08760125,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_altklniaqmdz3eb1rlf1ybjv8ihn",
+            "image": null
+          },
+          {
+            "text": "One 8-ounce box no-boil lasagna noodles",
+            "quantity": 8.0,
+            "measure": "ounce",
+            "food": "no-boil lasagna",
+            "weight": 226.796185,
+            "foodCategory": "grains",
+            "foodId": "food_a8hs60uayl5icia1qe8qoba1kwp8",
+            "image": "https://www.edamam.com/food-img/296/296ff2b02ef3822928c3c923e22c7d19.jpg"
+          },
+          {
+            "text": "1/2 cup vegan mozzarella-style cheese, preferably Daiya brand",
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "cheese",
+            "weight": 66.0,
+            "foodCategory": "Cheese",
+            "foodId": "food_bhppgmha1u27voagb8eptbp9g376",
+            "image": "https://www.edamam.com/food-img/bcd/bcd94dde1fcde1475b5bf0540f821c5d.jpg"
+          }
+        ],
+        "totalTime": 0.0,
+        "cuisineType": [
+          "italian"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/76bff27336bd9037e74fc58ee2d1fcbb?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_ba88adc6ba1364a3ad73e47cee4ea4b1",
+        "label": "Amish Chicken Casserole",
+        "image": "https://www.edamam.com/web-img/2a6/2a61ac8eaa2c10c6c38e8f0c6a5aa5c8",
+        "source": "Allrecipes",
+        "url": "https://www.allrecipes.com/recipe/276025/amish-chicken-casserole/",
+        "yield": 12.0,
+        "ingredientLines": [
+          "1 (8 ounce) package egg noodles",
+          "½ cup butter",
+          "⅓ cup all-purpose flour",
+          "2 cups chicken broth",
+          "1 cup milk",
+          "2 teaspoons salt",
+          "½ teaspoon ground black pepper",
+          "2 cups chopped cooked chicken",
+          "1 (4 ounce) can sliced mushrooms, drained",
+          "⅓ cup grated Parmesan cheese"
+        ],
+        "ingredients": [
+          {
+            "text": "1 (8 ounce) package egg noodles",
+            "quantity": 8.0,
+            "measure": "ounce",
+            "food": "egg noodles",
+            "weight": 226.796185,
+            "foodCategory": "grains",
+            "foodId": "food_aefg3gqa71nrtpbhjfo3yb36kd81",
+            "image": "https://www.edamam.com/food-img/800/800c9c0d7cef6b5474723682ffa2878d.jpg"
+          },
+          {
+            "text": "½ cup butter",
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "butter",
+            "weight": 113.5,
+            "foodCategory": "Dairy",
+            "foodId": "food_awz3iefajbk1fwahq9logahmgltj",
+            "image": "https://www.edamam.com/food-img/713/71397239b670d88c04faa8d05035cab4.jpg"
+          },
+          {
+            "text": "⅓ cup all-purpose flour",
+            "quantity": 0.3333333333333333,
+            "measure": "cup",
+            "food": "all-purpose flour",
+            "weight": 41.666666666666664,
+            "foodCategory": "grains",
+            "foodId": "food_ar3x97tbq9o9p6b6gzwj0am0c81l",
+            "image": "https://www.edamam.com/food-img/368/368077bbcab62f862a8c766a56ea5dd1.jpg"
+          },
+          {
+            "text": "2 cups chicken broth",
+            "quantity": 2.0,
+            "measure": "cup",
+            "food": "chicken broth",
+            "weight": 480.0,
+            "foodCategory": "canned soup",
+            "foodId": "food_bptblvzambd16nbhewqmhaw1rnh5",
+            "image": "https://www.edamam.com/food-img/26a/26a10c4cb4e07bab54d8a687ef5ac7d8.jpg"
+          },
+          {
+            "text": "1 cup milk",
+            "quantity": 1.0,
+            "measure": "cup",
+            "food": "milk",
+            "weight": 244.0,
+            "foodCategory": "Milk",
+            "foodId": "food_b49rs1kaw0jktabzkg2vvanvvsis",
+            "image": "https://www.edamam.com/food-img/7c9/7c9962acf83654a8d98ea6a2ade93735.jpg"
+          },
+          {
+            "text": "2 teaspoons salt",
+            "quantity": 2.0,
+            "measure": "teaspoon",
+            "food": "salt",
+            "weight": 12.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": "½ teaspoon ground black pepper",
+            "quantity": 0.5,
+            "measure": "teaspoon",
+            "food": "black pepper",
+            "weight": 1.15,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b6ywzluaaxv02wad7s1r9ag4py89",
+            "image": "https://www.edamam.com/food-img/c6e/c6e5c3bd8d3bc15175d9766971a4d1b2.jpg"
+          },
+          {
+            "text": "2 cups chopped cooked chicken",
+            "quantity": 2.0,
+            "measure": "cup",
+            "food": "cooked chicken",
+            "weight": 280.0,
+            "foodCategory": "Poultry",
+            "foodId": "food_a59p480aae04fubjz0yo7a5auh4m",
+            "image": "https://www.edamam.com/food-img/c81/c81b9affb7c9c29a861e8566bd2d0829.jpg"
+          },
+          {
+            "text": "1 (4 ounce) can sliced mushrooms, drained",
+            "quantity": 4.0,
+            "measure": "ounce",
+            "food": "mushrooms",
+            "weight": 113.3980925,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_aqqk6vzaairumxb2xsi1rbl4zrib",
+            "image": "https://www.edamam.com/food-img/ff7/ff76d6a411452a15375b7dd63abf123e.jpg"
+          },
+          {
+            "text": "⅓ cup grated Parmesan cheese",
+            "quantity": 0.3333333333333333,
+            "measure": "cup",
+            "food": "Parmesan cheese",
+            "weight": 49.56875,
+            "foodCategory": "Cheese",
+            "foodId": "food_a104ppxa06d3emb272fkcab3cugd",
+            "image": "https://www.edamam.com/food-img/f58/f588658627c59d5041e4664119829aa9.jpg"
+          }
+        ],
+        "totalTime": 45.0,
+        "cuisineType": [
+          "american"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/ba88adc6ba1364a3ad73e47cee4ea4b1?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_507fa434579a3676a42123c7be909e0d",
+        "label": "Soba Noodle Soup w/ Tofu, Mushrooms, & Spinach recipes",
+        "image": "https://www.edamam.com/web-img/7a5/7a57448e62d27ff761865fc3982bf35c",
+        "source": "allroadsleadtothe.kitchen",
+        "url": "http://www.allroadsleadtothe.kitchen/2013/04/SobaNoodleSoupTofuMushroomsSpinach.html",
+        "yield": 2.0,
+        "ingredientLines": [
+          "1 Tbs. oil (olive, vegetable, corn, coconut)",
+          "1 clove garlic, minced",
+          "1 tsp. minced ginger",
+          "big pinch crushed red chile flakes",
+          "big handful sliced mushrooms",
+          "3 c. chicken or vegetable stock (or low-sodium broth)",
+          "3 oz. soba noodles",
+          "1 Tbs. soy sauce",
+          "big pinch sugar",
+          "2 handfuls baby spinach",
+          "6 oz. tofu, pressed & cut into cubes",
+          "1 scallions, thinly sliced"
+        ],
+        "ingredients": [
+          {
+            "text": "1 Tbs. oil (olive, vegetable, corn, coconut)",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "oil",
+            "weight": 14.0,
+            "foodCategory": "Oils",
+            "foodId": "food_bk9p9aaavhvoq4bqsnprobpsiuxs",
+            "image": "https://www.edamam.com/food-img/07e/07e106ab3536d57428e5c46d009038f8.jpg"
+          },
+          {
+            "text": "1 clove garlic, minced",
+            "quantity": 1.0,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 3.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": "1 tsp. minced ginger",
+            "quantity": 1.0,
+            "measure": "teaspoon",
+            "food": "minced ginger",
+            "weight": 2.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bi2ki2xb5zmmvbaiwf7ztbgktzp6",
+            "image": "https://www.edamam.com/food-img/b9c/b9c06ef451ef29513880af0a53ebbaa6.jpg"
+          },
+          {
+            "text": "big pinch crushed red chile flakes",
+            "quantity": 1.0,
+            "measure": "pinch",
+            "food": "crushed red chile flakes",
+            "weight": 0.110416666808545,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a8iooz3aris8gba605l07brngnrx",
+            "image": "https://www.edamam.com/food-img/374/3742b9434a0fb66a45e0dd6d227ba669.jpg"
+          },
+          {
+            "text": "big handful sliced mushrooms",
+            "quantity": 1.0,
+            "measure": "handful",
+            "food": "mushrooms",
+            "weight": 8.75,
+            "foodCategory": "vegetables",
+            "foodId": "food_bvlose6arfl26ra396sjrb7hetqh",
+            "image": "https://www.edamam.com/food-img/d63/d639cf4a2afc7407c1d1ce286028136b.jpg"
+          },
+          {
+            "text": "3 c. chicken or vegetable stock (or low-sodium broth)",
+            "quantity": 3.0,
+            "measure": "cup",
+            "food": "chicken or vegetable stock",
+            "weight": 720.0,
+            "foodCategory": "canned soup",
+            "foodId": "food_bptblvzambd16nbhewqmhaw1rnh5",
+            "image": "https://www.edamam.com/food-img/26a/26a10c4cb4e07bab54d8a687ef5ac7d8.jpg"
+          },
+          {
+            "text": "3 oz. soba noodles",
+            "quantity": 3.0,
+            "measure": "ounce",
+            "food": "soba noodles",
+            "weight": 85.048569375,
+            "foodCategory": "grains",
+            "foodId": "food_aqaha3dafwlf4qa5jg1b2bwzz8jm",
+            "image": "https://www.edamam.com/food-img/85c/85c4c240b7838a2de80c5dcab3107e97.jpg"
+          },
+          {
+            "text": "1 Tbs. soy sauce",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "soy sauce",
+            "weight": 16.0,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_a5g9yevb1iactoaiimbvjbkrxueh",
+            "image": "https://www.edamam.com/food-img/f56/f562e461eb0618f367f538b836c17b82.jpg"
+          },
+          {
+            "text": "big pinch sugar",
+            "quantity": 1.0,
+            "measure": "pinch",
+            "food": "sugar",
+            "weight": 0.2604166669968817,
+            "foodCategory": "sugars",
+            "foodId": "food_axi2ijobrk819yb0adceobnhm1c2",
+            "image": "https://www.edamam.com/food-img/ecb/ecb3f5aaed96d0188c21b8369be07765.jpg"
+          },
+          {
+            "text": "2 handfuls baby spinach",
+            "quantity": 2.0,
+            "measure": "handful",
+            "food": "spinach",
+            "weight": 2.4999999999999973,
+            "foodCategory": "vegetables",
+            "foodId": "food_aoceuc6bshdej1bbsdammbnj6l6o",
+            "image": "https://www.edamam.com/food-img/e6e/e6e4be375c4554ce01c8ea75232efaa6.jpg"
+          },
+          {
+            "text": "6 oz. tofu, pressed & cut into cubes",
+            "quantity": 6.0,
+            "measure": "ounce",
+            "food": "tofu",
+            "weight": 170.09713875,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_a269ixea1yf51xbfwgnq2boiwc7x",
+            "image": "https://www.edamam.com/food-img/b6a/b6ae13c3cfe37e16f820840f90231bff.jpg"
+          },
+          {
+            "text": "1 scallions, thinly sliced",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "scallions",
+            "weight": 15.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bknlkyzbuzo27pb11whr4bttkuy6",
+            "image": "https://www.edamam.com/food-img/b89/b89986ed6aa466285bdd99bac34b3c46.jpg"
+          }
+        ],
+        "totalTime": 0.0,
+        "cuisineType": [
+          "asian"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "soup"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/507fa434579a3676a42123c7be909e0d?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_7ac3277c3299d4d8ac25f7c3de44b00a",
+        "label": "Asian Prawn Soup recipes",
+        "image": "https://www.edamam.com/web-img/f8d/f8d8ae824d54bbee747490016ac0b3a6",
+        "source": "foodtolove.com.au",
+        "url": "http://www.foodtolove.com.au/recipes/asian-prawn-soup-17593",
+        "yield": 6.0,
+        "ingredientLines": [
+          "500 g uncooked king prawns",
+          "2 cm piece fresh ginger (10g), sliced thinly",
+          "1 tsp black peppercorns",
+          "2 cloves garlic, crushed",
+          "10 cm stick fresh lemongrass (20g), chopped finely",
+          "3 L (12 cups) water",
+          "2 fresh long red chillies, sliced thinly",
+          "400 g fresh rice noodles",
+          "1/4 cup (60ml) lemon juice",
+          "1/3 cup (80ml) fish sauce, approximately",
+          "2 green onions, sliced thinly",
+          "1/3 cup firmly packed fresh coriander leaves",
+          "1/4 cup firmly packed fresh mint leaves"
+        ],
+        "ingredients": [
+          {
+            "text": "500 g uncooked king prawns",
+            "quantity": 500.0,
+            "measure": "gram",
+            "food": "prawns",
+            "weight": 500.0,
+            "foodCategory": "seafood",
+            "foodId": "food_b38bejhbq9loe2bbb7bnmbcpteft",
+            "image": "https://www.edamam.com/food-img/ebe/ebe2888b894f48d19762e1d606db0206.jpg"
+          },
+          {
+            "text": "2 cm piece fresh ginger (10g), sliced thinly",
+            "quantity": 10.0,
+            "measure": "gram",
+            "food": "fresh ginger",
+            "weight": 10.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bi2ki2xb5zmmvbaiwf7ztbgktzp6",
+            "image": "https://www.edamam.com/food-img/b9c/b9c06ef451ef29513880af0a53ebbaa6.jpg"
+          },
+          {
+            "text": "1 tsp black peppercorns",
+            "quantity": 1.0,
+            "measure": "teaspoon",
+            "food": "black peppercorns",
+            "weight": 2.9,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b6ywzluaaxv02wad7s1r9ag4py89",
+            "image": "https://www.edamam.com/food-img/c6e/c6e5c3bd8d3bc15175d9766971a4d1b2.jpg"
+          },
+          {
+            "text": "2 cloves garlic, crushed",
+            "quantity": 2.0,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 6.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": "10 cm stick fresh lemongrass (20g), chopped finely",
+            "quantity": 20.0,
+            "measure": "gram",
+            "food": "lemongrass",
+            "weight": 20.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_b3l1z8na3dy8qfaht3yubbrdu94h",
+            "image": "https://www.edamam.com/food-img/a6e/a6ef38b461759334bbdc4d25ca678ad1.jpg"
+          },
+          {
+            "text": "3 L (12 cups) water",
+            "quantity": 3.0,
+            "measure": "liter",
+            "food": "water",
+            "weight": 3000.0,
+            "foodCategory": "water",
+            "foodId": "food_a99vzubbk1ayrsad318rvbzr3dh0",
+            "image": "https://www.edamam.com/food-img/5dd/5dd9d1361847b2ca53c4b19a8f92627e.jpg"
+          },
+          {
+            "text": "2 fresh long red chillies, sliced thinly",
+            "quantity": 2.0,
+            "measure": "<unit>",
+            "food": "red chillies",
+            "weight": 90.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_a6g98mqatzj7vca6ms3bnbzqxf3s",
+            "image": "https://www.edamam.com/food-img/469/469213672957a242638e20c27e3e8acd.jpeg"
+          },
+          {
+            "text": "400 g fresh rice noodles",
+            "quantity": 400.0,
+            "measure": "gram",
+            "food": "rice noodles",
+            "weight": 400.0,
+            "foodCategory": "grains",
+            "foodId": "food_bkwbi4gbu7k75ha7ad8eralgwvlk",
+            "image": "https://www.edamam.com/food-img/a83/a831dd1f26c9e2d0bf9e01bf7d5c0f0e.jpg"
+          },
+          {
+            "text": "1/4 cup (60ml) lemon juice",
+            "quantity": 60.0,
+            "measure": "milliliter",
+            "food": "lemon juice",
+            "weight": 61.87966154437268,
+            "foodCategory": "100% juice",
+            "foodId": "food_bglm6vxahuauteb0n6ynfbg9eryu",
+            "image": "https://www.edamam.com/food-img/e31/e310952d214e78a4cb8b73f30ceeaaf2.jpg"
+          },
+          {
+            "text": "1/3 cup (80ml) fish sauce, approximately",
+            "quantity": 80.0,
+            "measure": "milliliter",
+            "food": "fish sauce",
+            "weight": 97.38438538295429,
+            "foodCategory": "canned soup",
+            "foodId": "food_ahlu6u3ab8bu1wap7cbqua3s1quk",
+            "image": "https://www.edamam.com/food-img/7b5/7b58b769d8bf7b79acf12a76b79ea9bc.jpg"
+          },
+          {
+            "text": "2 green onions, sliced thinly",
+            "quantity": 2.0,
+            "measure": "<unit>",
+            "food": "green onions",
+            "weight": 30.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bknlkyzbuzo27pb11whr4bttkuy6",
+            "image": "https://www.edamam.com/food-img/b89/b89986ed6aa466285bdd99bac34b3c46.jpg"
+          },
+          {
+            "text": "1/3 cup firmly packed fresh coriander leaves",
+            "quantity": 0.3333333333333333,
+            "measure": "cup",
+            "food": "coriander leaves",
+            "weight": 5.333333333333333,
+            "foodCategory": "vegetables",
+            "foodId": "food_alhzhuwb4lc7jnb5s6f02by60bzp",
+            "image": "https://www.edamam.com/food-img/d57/d57e375b6ff99a90c7ee2b1990a1af36.jpg"
+          },
+          {
+            "text": "1/4 cup firmly packed fresh mint leaves",
+            "quantity": 0.25,
+            "measure": "cup",
+            "food": "mint leaves",
+            "weight": 22.800000000385474,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_bxl4xoga4owdkeay51sy8anesxj5",
+            "image": "https://www.edamam.com/food-img/7f0/7f01cc4f71c5c6ad31051ed74b9c058b.jpg"
+          }
+        ],
+        "totalTime": 55.0,
+        "cuisineType": [
+          "asian"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "soup"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/7ac3277c3299d4d8ac25f7c3de44b00a?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_6c0af776c0e318ac00e87262d42d16b7",
+        "label": "Easy Crock Pot Lasagna",
+        "image": "https://www.edamam.com/web-img/3dd/3dd43dec50c0dda3e3cf00142dd527d1.jpg",
+        "source": "food.com",
+        "url": "http://www.food.com/recipe/easy-crock-pot-lasagna-144144",
+        "yield": 8.0,
+        "ingredientLines": [
+          "1 lb ground beef",
+          "1 medium onion, chopped",
+          "2 garlic cloves, minced",
+          "1 (29 ounce) can tomato sauce",
+          "1 cup water",
+          "1 (6 ounce) can tomato paste",
+          "1 teaspoon salt",
+          "1 teaspoon dried oregano",
+          "8 ounces lasagna noodles, uncooked",
+          "4 cups mozzarella cheese, shredded",
+          "1 1⁄2 cups small curd cottage cheese",
+          "1⁄2 cup parmesan cheese, grated"
+        ],
+        "ingredients": [
+          {
+            "text": "1 lb ground beef",
+            "quantity": 1.0,
+            "measure": "pound",
+            "food": "ground beef",
+            "weight": 453.59237,
+            "foodCategory": "meats",
+            "foodId": "food_boq91pbbhklr6sb0d9sbybzgklkm",
+            "image": "https://www.edamam.com/food-img/cfa/cfae8f9276eaf8f0d9349ba662744a0c.jpg"
+          },
+          {
+            "text": "1 medium onion, chopped",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "onion",
+            "weight": 110.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bmrvi4ob4binw9a5m7l07amlfcoy",
+            "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+          },
+          {
+            "text": "2 garlic cloves, minced",
+            "quantity": 2.0,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 6.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": "1 (29 ounce) can tomato sauce",
+            "quantity": 29.0,
+            "measure": "ounce",
+            "food": "tomato sauce",
+            "weight": 822.136170625,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_altklniaqmdz3eb1rlf1ybjv8ihn",
+            "image": null
+          },
+          {
+            "text": "1 cup water",
+            "quantity": 1.0,
+            "measure": "cup",
+            "food": "water",
+            "weight": 237.0,
+            "foodCategory": "water",
+            "foodId": "food_a99vzubbk1ayrsad318rvbzr3dh0",
+            "image": "https://www.edamam.com/food-img/5dd/5dd9d1361847b2ca53c4b19a8f92627e.jpg"
+          },
+          {
+            "text": "1 (6 ounce) can tomato paste",
+            "quantity": 6.0,
+            "measure": "ounce",
+            "food": "tomato paste",
+            "weight": 170.09713875,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_auu2atfal07b6gbd1a5wsawy7u0s",
+            "image": "https://www.edamam.com/food-img/aef/aef4e029118da71388e526086506053a.jpg"
+          },
+          {
+            "text": "1 teaspoon salt",
+            "quantity": 1.0,
+            "measure": "teaspoon",
+            "food": "salt",
+            "weight": 6.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": "1 teaspoon dried oregano",
+            "quantity": 1.0,
+            "measure": "teaspoon",
+            "food": "dried oregano",
+            "weight": 1.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_bkkw6v3bdf0sqiazmzyuiax7i8jr",
+            "image": "https://www.edamam.com/food-img/1b0/1b0eaffb1c261606e0d82fed8e9747a7.jpg"
+          },
+          {
+            "text": "8 ounces lasagna noodles, uncooked",
+            "quantity": 8.0,
+            "measure": "ounce",
+            "food": "lasagna noodles",
+            "weight": 226.796185,
+            "foodCategory": "grains",
+            "foodId": "food_a8hs60uayl5icia1qe8qoba1kwp8",
+            "image": "https://www.edamam.com/food-img/296/296ff2b02ef3822928c3c923e22c7d19.jpg"
+          },
+          {
+            "text": "4 cups mozzarella cheese, shredded",
+            "quantity": 4.0,
+            "measure": "cup",
+            "food": "mozzarella cheese",
+            "weight": 1039.5,
+            "foodCategory": "Cheese",
+            "foodId": "food_acjhpy7bkl7a9qboztipaa2i9e4m",
+            "image": "https://www.edamam.com/food-img/92d/92d92d4a4dfe8c025cea407c9ce764c3.jpg"
+          },
+          {
+            "text": "1 1⁄2 cups small curd cottage cheese",
+            "quantity": 1.5,
+            "measure": "cup",
+            "food": "cottage cheese",
+            "weight": 337.5,
+            "foodCategory": "Cheese",
+            "foodId": "food_adqkk4ta6dggveb3hy192aqzdfnv",
+            "image": "https://www.edamam.com/food-img/8ee/8ee7b75071fc907cce2819031a9ae563.jpg"
+          },
+          {
+            "text": "1⁄2 cup parmesan cheese, grated",
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "parmesan cheese",
+            "weight": 74.353125,
+            "foodCategory": "Cheese",
+            "foodId": "food_a104ppxa06d3emb272fkcab3cugd",
+            "image": "https://www.edamam.com/food-img/f58/f588658627c59d5041e4664119829aa9.jpg"
+          }
+        ],
+        "totalTime": 285.0,
+        "cuisineType": [
+          "italian"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/6c0af776c0e318ac00e87262d42d16b7?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_a6889a47836f612cf1aca81c4d8f968b",
+        "label": "Crockpot Chicken Noodle Soup Recipe",
+        "image": "https://www.edamam.com/web-img/489/48987bbd853ac6cedc85df2fcb88c022.jpg",
+        "source": "onepotrecipes.com",
+        "url": "https://onepotrecipes.com/crockpot-chicken-noodle-soup-recipe",
+        "yield": 4.0,
+        "ingredientLines": [
+          "1.5 pound Chicken breast Boneless",
+          "1.5 cups Carrots Peeled and sliced into small circles",
+          "1 cup Onion Finely chopped",
+          "1 cup Celery Sliced",
+          "2.5 tbsp Garlic FInely minced",
+          "1.5 tbsp Olive oil",
+          "6 cups Chicken broth Low sodium",
+          "1 cup Water",
+          "1 Bay leaf Optional",
+          "Salt To taste",
+          "Pepper To taste",
+          "1/2 tsp Dried thyme",
+          "1/2 tsp Dried rosemary",
+          "1/4 tsp Dried sage",
+          "2 cups Egg noodles Uncooked, Wide",
+          "1 tbsp Lemon juice",
+          "2-3 tbsp Green onions Or cilantro, Or parsley, Roughly chopped, For garnish"
+        ],
+        "ingredients": [
+          {
+            "text": "1.5 pound Chicken breast Boneless",
+            "quantity": 1.5,
+            "measure": "pound",
+            "food": "Chicken breast",
+            "weight": 680.388555,
+            "foodCategory": "Poultry",
+            "foodId": "food_a9hdg97b1sqqs5aj1al75bbo5iyt",
+            "image": "https://www.edamam.com/food-img/093/093749f4c93e448119fc81976d2c3067.jpg"
+          },
+          {
+            "text": "1.5 cups Carrots Peeled and sliced into small circles",
+            "quantity": 1.5,
+            "measure": "cup",
+            "food": "Carrots",
+            "weight": 183.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_ai215e5b85pdh5ajd4aafa3w2zm8",
+            "image": "https://www.edamam.com/food-img/121/121e33fce0bb9546ed7d060b6c114e29.jpg"
+          },
+          {
+            "text": "1 cup Onion Finely chopped",
+            "quantity": 1.0,
+            "measure": "cup",
+            "food": "Onion",
+            "weight": 160.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bmrvi4ob4binw9a5m7l07amlfcoy",
+            "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+          },
+          {
+            "text": "1 cup Celery Sliced",
+            "quantity": 1.0,
+            "measure": "cup",
+            "food": "Celery",
+            "weight": 101.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bffeoksbyyur8ja4da73ub2xs57g",
+            "image": "https://www.edamam.com/food-img/d91/d91d2aed1c36d8fad54c4d7dc58f5a18.jpg"
+          },
+          {
+            "text": "2.5 tbsp Garlic FInely minced",
+            "quantity": 2.5,
+            "measure": "tablespoon",
+            "food": "Garlic",
+            "weight": 21.24999999964073,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": "1.5 tbsp Olive oil",
+            "quantity": 1.5,
+            "measure": "tablespoon",
+            "food": "Olive oil",
+            "weight": 20.25,
+            "foodCategory": "Oils",
+            "foodId": "food_b1d1icuad3iktrbqby0hiagafaz7",
+            "image": "https://www.edamam.com/food-img/4d6/4d651eaa8a353647746290c7a9b29d84.jpg"
+          },
+          {
+            "text": "6 cups Chicken broth Low sodium",
+            "quantity": 6.0,
+            "measure": "cup",
+            "food": "Chicken broth",
+            "weight": 1440.0,
+            "foodCategory": "canned soup",
+            "foodId": "food_bptblvzambd16nbhewqmhaw1rnh5",
+            "image": "https://www.edamam.com/food-img/26a/26a10c4cb4e07bab54d8a687ef5ac7d8.jpg"
+          },
+          {
+            "text": "1 cup Water",
+            "quantity": 1.0,
+            "measure": "cup",
+            "food": "Water",
+            "weight": 237.0,
+            "foodCategory": "water",
+            "foodId": "food_a99vzubbk1ayrsad318rvbzr3dh0",
+            "image": "https://www.edamam.com/food-img/5dd/5dd9d1361847b2ca53c4b19a8f92627e.jpg"
+          },
+          {
+            "text": "1 Bay leaf Optional",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "Bay leaf",
+            "weight": 0.6,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_asx39x4ayja4jab6ivj6zayvkblo",
+            "image": "https://www.edamam.com/food-img/0f9/0f9f5f95df173e9ffaaff2977bef88f3.jpg"
+          },
+          {
+            "text": "Salt To taste",
+            "quantity": 0.0,
+            "measure": null,
+            "food": "Salt",
+            "weight": 17.706081329996298,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": "Pepper To taste",
+            "quantity": 0.0,
+            "measure": null,
+            "food": "Pepper",
+            "weight": 8.853040664998149,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b6ywzluaaxv02wad7s1r9ag4py89",
+            "image": "https://www.edamam.com/food-img/c6e/c6e5c3bd8d3bc15175d9766971a4d1b2.jpg"
+          },
+          {
+            "text": "1/2 tsp Dried thyme",
+            "quantity": 0.5,
+            "measure": "teaspoon",
+            "food": "Dried thyme",
+            "weight": 0.5,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_avsq22zadwyb5cb5sl1byaa4mbo8",
+            "image": "https://www.edamam.com/food-img/89b/89b37a04e46e052671d73addcb84aa51.jpg"
+          },
+          {
+            "text": "1/2 tsp Dried rosemary",
+            "quantity": 0.5,
+            "measure": "teaspoon",
+            "food": "Dried rosemary",
+            "weight": 0.6,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a0mmczzafwhi1dao3qg7aamaqdmw",
+            "image": "https://www.edamam.com/food-img/a36/a36eea912c621522f8cd795316c883a5.jpg"
+          },
+          {
+            "text": "1/4 tsp Dried sage",
+            "quantity": 0.25,
+            "measure": "teaspoon",
+            "food": "Dried sage",
+            "weight": 0.175,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_auhrv95axtm9x9bbjgvp0bih8bzl",
+            "image": "https://www.edamam.com/food-img/509/50984580e9aad4b4ddd5b7ed45a64bf4.jpg"
+          },
+          {
+            "text": "2 cups Egg noodles Uncooked, Wide",
+            "quantity": 2.0,
+            "measure": "cup",
+            "food": "Egg noodles",
+            "weight": 76.0,
+            "foodCategory": "grains",
+            "foodId": "food_aefg3gqa71nrtpbhjfo3yb36kd81",
+            "image": "https://www.edamam.com/food-img/800/800c9c0d7cef6b5474723682ffa2878d.jpg"
+          },
+          {
+            "text": "1 tbsp Lemon juice",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "Lemon juice",
+            "weight": 15.2499999997422,
+            "foodCategory": "100% juice",
+            "foodId": "food_bglm6vxahuauteb0n6ynfbg9eryu",
+            "image": "https://www.edamam.com/food-img/e31/e310952d214e78a4cb8b73f30ceeaaf2.jpg"
+          },
+          {
+            "text": "2-3 tbsp Green onions Or cilantro, Or parsley, Roughly chopped, For garnish",
+            "quantity": 2.5,
+            "measure": "tablespoon",
+            "food": "Green onions",
+            "weight": 15.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bknlkyzbuzo27pb11whr4bttkuy6",
+            "image": "https://www.edamam.com/food-img/b89/b89986ed6aa466285bdd99bac34b3c46.jpg"
+          }
+        ],
+        "totalTime": 0.0,
+        "cuisineType": [
+          "american"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "soup",
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/a6889a47836f612cf1aca81c4d8f968b?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_c2c8845bdc690fc8738ad51e6517c301",
+        "label": "Zucchini Noodles with Mushroom Marinara",
+        "image": "https://www.edamam.com/web-img/ff2/ff2bcc7ee130e8b5d4b5e0fb6d627339.jpg",
+        "source": "Allrecipes",
+        "url": "https://www.allrecipes.com/recipe/256058/zucchini-noodles-with-mushroom-marinara/",
+        "yield": 4.0,
+        "ingredientLines": [
+          "2 tablespoons Pure Wesson® Canola Oil, divided",
+          "1 (8 ounce) package sliced fresh button mushrooms, chopped",
+          "1/2 cup chopped yellow onion",
+          "1 (14.5 ounce) can Hunt's® Petite Diced Tomatoes, undrained",
+          "1 (8 ounce) can Hunt's® Tomato Sauce",
+          "1 tablespoon balsamic vinegar",
+          "1/2 teaspoon garlic salt, divided",
+          "6 medium zucchini, sliced",
+          "Grated Parmesan cheese (optional)"
+        ],
+        "ingredients": [
+          {
+            "text": "2 tablespoons Pure Wesson® Canola Oil, divided",
+            "quantity": 2.0,
+            "measure": "tablespoon",
+            "food": "Canola Oil",
+            "weight": 28.0,
+            "foodCategory": "Oils",
+            "foodId": "food_bk9p9aaavhvoq4bqsnprobpsiuxs",
+            "image": "https://www.edamam.com/food-img/07e/07e106ab3536d57428e5c46d009038f8.jpg"
+          },
+          {
+            "text": "1 (8 ounce) package sliced fresh button mushrooms, chopped",
+            "quantity": 8.0,
+            "measure": "ounce",
+            "food": "button mushrooms",
+            "weight": 226.796185,
+            "foodCategory": "vegetables",
+            "foodId": "food_bvlose6arfl26ra396sjrb7hetqh",
+            "image": "https://www.edamam.com/food-img/d63/d639cf4a2afc7407c1d1ce286028136b.jpg"
+          },
+          {
+            "text": "1/2 cup chopped yellow onion",
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "yellow onion",
+            "weight": 80.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bmrvi4ob4binw9a5m7l07amlfcoy",
+            "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+          },
+          {
+            "text": "1 (14.5 ounce) can Hunt's® Petite Diced Tomatoes, undrained",
+            "quantity": 14.5,
+            "measure": "ounce",
+            "food": "Diced Tomatoes",
+            "weight": 411.0680853125,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_bnmkkwqa9h2p87bz171eoby0bsey",
+            "image": "https://www.edamam.com/food-img/d4e/d4e8110d51db4311bc894167a8f77816.jpg"
+          },
+          {
+            "text": "1 (8 ounce) can Hunt's® Tomato Sauce",
+            "quantity": 8.0,
+            "measure": "ounce",
+            "food": "Tomato Sauce",
+            "weight": 226.796185,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_altklniaqmdz3eb1rlf1ybjv8ihn",
+            "image": null
+          },
+          {
+            "text": "1 tablespoon balsamic vinegar",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "balsamic vinegar",
+            "weight": 16.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b1ic8tzapja8jubas1f8lbhpbn6x",
+            "image": "https://www.edamam.com/food-img/90a/90a1f211768e166ecfff19e8b4747498.jpg"
+          },
+          {
+            "text": "1/2 teaspoon garlic salt, divided",
+            "quantity": 0.5,
+            "measure": "teaspoon",
+            "food": "garlic salt",
+            "weight": 1.55,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_boq94r1a036492bdup9u1beyph0l",
+            "image": "https://www.edamam.com/food-img/5c3/5c3db1d5a1a16b1f0a74796f74dd5985.jpg"
+          },
+          {
+            "text": "6 medium zucchini, sliced",
+            "quantity": 6.0,
+            "measure": "<unit>",
+            "food": "zucchini",
+            "weight": 1176.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_avpihljbuwpd8ibbmahcabaros5s",
+            "image": "https://www.edamam.com/food-img/f63/f637280594e4a731eccc1199194a8847.jpg"
+          },
+          {
+            "text": "Grated Parmesan cheese (optional)",
+            "quantity": 0.0,
+            "measure": null,
+            "food": "Parmesan cheese",
+            "weight": 0.0,
+            "foodCategory": "Cheese",
+            "foodId": "food_a104ppxa06d3emb272fkcab3cugd",
+            "image": "https://www.edamam.com/food-img/f58/f588658627c59d5041e4664119829aa9.jpg"
+          }
+        ],
+        "totalTime": 35.0,
+        "cuisineType": [
+          "asian"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/c2c8845bdc690fc8738ad51e6517c301?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_ce28edf2d3c94ebb9e9deb3b7b435ce3",
+        "label": "9 Time Pro-Roller - Chicken Spring Rolls",
+        "image": "https://www.edamam.com/web-img/d05/d05beece4d4643b55c5107d6daf7679f.jpeg",
+        "source": "Food Network",
+        "url": "https://www.foodnetwork.com/recipes/9-time-pro-roller-chicken-spring-rolls-recipe-2124326",
+        "yield": 6.0,
+        "ingredientLines": [
+          "4 stalks lemon grass, chopped",
+          "3 tablespoons fish sauce",
+          "2 tablespoons sugar",
+          "1 bunch Thai basil leaves",
+          "1 bunch cilantro, leaves only",
+          "1 package vermicelli noodles",
+          "2 tablespoons ginger - fresh and grated",
+          "2 cloves garlic, chopped",
+          "1 tablespoon hot chili sauce (recommended: Sriracha)",
+          "4 cloves garlic",
+          "1 lemon, zested",
+          "2 tablespoons grated ginger",
+          "4 chicken breasts skinless and boneless and butterflied",
+          "1 cucumber",
+          "1 carrot",
+          "1 bunch shiso leaves",
+          "1 bunch mint leaves",
+          "1 lime, juiced",
+          "2 to 3 tablespoons brown sugar",
+          "1/2 to 2/3 cup smooth peanut butter - (recommended: CB (Seattle))",
+          "3 tablespoons dark soy sauce",
+          "1 tablespoon fish sauce",
+          "4 to 6 tablespoons hot water",
+          "1 package rice paper wrappers"
+        ],
+        "ingredients": [
+          {
+            "text": "4 stalks lemon grass, chopped",
+            "quantity": 4.0,
+            "measure": "stalk",
+            "food": "lemon grass",
+            "weight": 80.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_b3l1z8na3dy8qfaht3yubbrdu94h",
+            "image": "https://www.edamam.com/food-img/a6e/a6ef38b461759334bbdc4d25ca678ad1.jpg"
+          },
+          {
+            "text": "3 tablespoons fish sauce",
+            "quantity": 3.0,
+            "measure": "tablespoon",
+            "food": "fish sauce",
+            "weight": 54.0,
+            "foodCategory": "canned soup",
+            "foodId": "food_ahlu6u3ab8bu1wap7cbqua3s1quk",
+            "image": "https://www.edamam.com/food-img/7b5/7b58b769d8bf7b79acf12a76b79ea9bc.jpg"
+          },
+          {
+            "text": "2 tablespoons sugar",
+            "quantity": 2.0,
+            "measure": "tablespoon",
+            "food": "sugar",
+            "weight": 24.9999999995774,
+            "foodCategory": "sugars",
+            "foodId": "food_axi2ijobrk819yb0adceobnhm1c2",
+            "image": "https://www.edamam.com/food-img/ecb/ecb3f5aaed96d0188c21b8369be07765.jpg"
+          },
+          {
+            "text": "1 bunch Thai basil leaves",
+            "quantity": 1.0,
+            "measure": "bunch",
+            "food": "Thai basil",
+            "weight": 50.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_bfeht3obd58c3gak5ehpibxgbbs6",
+            "image": "https://www.edamam.com/food-img/5f1/5f1b05685ac2b404236a5d1c1f3c8c10.jpg"
+          },
+          {
+            "text": "1 bunch cilantro, leaves only",
+            "quantity": 1.0,
+            "measure": "bunch",
+            "food": "cilantro",
+            "weight": 40.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_alhzhuwb4lc7jnb5s6f02by60bzp",
+            "image": "https://www.edamam.com/food-img/d57/d57e375b6ff99a90c7ee2b1990a1af36.jpg"
+          },
+          {
+            "text": "1 package vermicelli noodles",
+            "quantity": 1.0,
+            "measure": "package",
+            "food": "vermicelli noodles",
+            "weight": 453.0,
+            "foodCategory": "grains",
+            "foodId": "food_a8hs60uayl5icia1qe8qoba1kwp8",
+            "image": "https://www.edamam.com/food-img/296/296ff2b02ef3822928c3c923e22c7d19.jpg"
+          },
+          {
+            "text": "2 tablespoons ginger - fresh and grated",
+            "quantity": 2.0,
+            "measure": "tablespoon",
+            "food": "ginger",
+            "weight": 11.99999999979712,
+            "foodCategory": "vegetables",
+            "foodId": "food_bi2ki2xb5zmmvbaiwf7ztbgktzp6",
+            "image": "https://www.edamam.com/food-img/b9c/b9c06ef451ef29513880af0a53ebbaa6.jpg"
+          },
+          {
+            "text": "2 cloves garlic, chopped",
+            "quantity": 2.0,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 6.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": "1 tablespoon hot chili sauce (recommended: Sriracha)",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "hot chili sauce",
+            "weight": 14.099999999046444,
+            "foodCategory": "canned soup",
+            "foodId": "food_a6201h1bu1m0tfbrvis6ma6nvhzv",
+            "image": "https://www.edamam.com/food-img/946/946c38a4c278da4361d2615d653d685a.jpg"
+          },
+          {
+            "text": "4 cloves garlic",
+            "quantity": 4.0,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 12.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": "1 lemon, zested",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "lemon",
+            "weight": 58.0,
+            "foodCategory": "fruit",
+            "foodId": "food_a6uzc62astrxcgbtzyq59b6fncrr",
+            "image": "https://www.edamam.com/food-img/70a/70acba3d4c734d7c70ef4efeed85dc8f.jpg"
+          },
+          {
+            "text": "2 tablespoons grated ginger",
+            "quantity": 2.0,
+            "measure": "tablespoon",
+            "food": "ginger",
+            "weight": 11.99999999979712,
+            "foodCategory": "vegetables",
+            "foodId": "food_bi2ki2xb5zmmvbaiwf7ztbgktzp6",
+            "image": "https://www.edamam.com/food-img/b9c/b9c06ef451ef29513880af0a53ebbaa6.jpg"
+          },
+          {
+            "text": "4 chicken breasts skinless and boneless and butterflied",
+            "quantity": 4.0,
+            "measure": "<unit>",
+            "food": "chicken breasts",
+            "weight": 696.0,
+            "foodCategory": "Poultry",
+            "foodId": "food_a9hdg97b1sqqs5aj1al75bbo5iyt",
+            "image": "https://www.edamam.com/food-img/093/093749f4c93e448119fc81976d2c3067.jpg"
+          },
+          {
+            "text": "1 cucumber",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "cucumber",
+            "weight": 301.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_bv7aggjag9rxsaatklqzobca5fzn",
+            "image": "https://www.edamam.com/food-img/501/5015da0e5fc2b384696b3d949aefef86.jpg"
+          },
+          {
+            "text": "1 carrot",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "carrot",
+            "weight": 61.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_ai215e5b85pdh5ajd4aafa3w2zm8",
+            "image": "https://www.edamam.com/food-img/121/121e33fce0bb9546ed7d060b6c114e29.jpg"
+          },
+          {
+            "text": "1 bunch shiso leaves",
+            "quantity": 1.0,
+            "measure": "bunch",
+            "food": "shiso",
+            "weight": 30.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_bxl4xoga4owdkeay51sy8anesxj5",
+            "image": "https://www.edamam.com/food-img/7f0/7f01cc4f71c5c6ad31051ed74b9c058b.jpg"
+          },
+          {
+            "text": "1 bunch mint leaves",
+            "quantity": 1.0,
+            "measure": "bunch",
+            "food": "mint leaves",
+            "weight": 30.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_bxl4xoga4owdkeay51sy8anesxj5",
+            "image": "https://www.edamam.com/food-img/7f0/7f01cc4f71c5c6ad31051ed74b9c058b.jpg"
+          },
+          {
+            "text": "1 lime, juiced",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "lime",
+            "weight": 67.0,
+            "foodCategory": "fruit",
+            "foodId": "food_av58muyb8kg92fbk0g8g8aui5knv",
+            "image": "https://www.edamam.com/food-img/48a/48a123c9576647c4ada6a41df5eeb22a.jpg"
+          },
+          {
+            "text": "2 to 3 tablespoons brown sugar",
+            "quantity": 2.5,
+            "measure": "tablespoon",
+            "food": "brown sugar",
+            "weight": 22.65624999961695,
+            "foodCategory": "sugars",
+            "foodId": "food_aodgtqwbmeu5f6bxeffn0art3bga",
+            "image": "https://www.edamam.com/food-img/8c6/8c6662bd73900645c6385b51a95d9b03.jpg"
+          },
+          {
+            "text": "1/2 to 2/3 cup smooth peanut butter - (recommended: CB (Seattle))",
+            "quantity": 0.5833333333333333,
+            "measure": "cup",
+            "food": "peanut butter",
+            "weight": 150.49999999999997,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_bz6b8fsbccyn3zaij72f7av8dl9m",
+            "image": "https://www.edamam.com/food-img/d74/d740276ae1409472a8714b2cee88a310.jpg"
+          },
+          {
+            "text": "3 tablespoons dark soy sauce",
+            "quantity": 3.0,
+            "measure": "tablespoon",
+            "food": "soy sauce",
+            "weight": 48.0,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_a5g9yevb1iactoaiimbvjbkrxueh",
+            "image": "https://www.edamam.com/food-img/f56/f562e461eb0618f367f538b836c17b82.jpg"
+          },
+          {
+            "text": "1 tablespoon fish sauce",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "fish sauce",
+            "weight": 18.0,
+            "foodCategory": "canned soup",
+            "foodId": "food_ahlu6u3ab8bu1wap7cbqua3s1quk",
+            "image": "https://www.edamam.com/food-img/7b5/7b58b769d8bf7b79acf12a76b79ea9bc.jpg"
+          },
+          {
+            "text": "4 to 6 tablespoons hot water",
+            "quantity": 5.0,
+            "measure": "tablespoon",
+            "food": "water",
+            "weight": 73.933823905,
+            "foodCategory": "water",
+            "foodId": "food_a99vzubbk1ayrsad318rvbzr3dh0",
+            "image": "https://www.edamam.com/food-img/5dd/5dd9d1361847b2ca53c4b19a8f92627e.jpg"
+          },
+          {
+            "text": "1 package rice paper wrappers",
+            "quantity": 1.0,
+            "measure": "package",
+            "food": "rice paper wrappers",
+            "weight": 70.0,
+            "foodCategory": "grains",
+            "foodId": "food_bzfxy5ta5ydh9ca7mdbwbbdgbl1v",
+            "image": "https://www.edamam.com/food-img/26b/26ba31a5638463018b09ffd44117261d.jpg"
+          }
+        ],
+        "totalTime": 795.0,
+        "cuisineType": [
+          "south east asian"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "starter"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/ce28edf2d3c94ebb9e9deb3b7b435ce3?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_a61694693d4fddbaa0d56c6db3e383fe",
+        "label": "Chinese Chive And Pressed Tofu Turnover Recipe",
+        "image": "https://www.edamam.com/web-img/50a/50a8c7e1843818fb887e895eca5bcc3d.jpg",
+        "source": "Food Republic",
+        "url": "http://www.foodrepublic.com/2012/06/11/chinese-chive-and-pressed-tofu-turnover-recipe",
+        "yield": 8.0,
+        "ingredientLines": [
+          "2 cups unbleached flour",
+          "1/2 teaspoon salt",
+          "2/3 cup warm water",
+          "4 teaspoons canola oil",
+          "1 bundle cellophane noodles, soaked in hot water to soften, drained well, and finely chopped",
+          "4 ounces pressed tofu, finely chopped",
+          "1 1/2 cups Chinese chives, chopped",
+          "3/4 teaspoon salt",
+          "1/2 teaspoon white pepper",
+          "1/2 teaspoon sugar",
+          "1 tablespoon cornstarch",
+          "1 tablespoon sesame oil",
+          "1 large egg",
+          "canola oil"
+        ],
+        "ingredients": [
+          {
+            "text": "2 cups unbleached flour",
+            "quantity": 2.0,
+            "measure": "cup",
+            "food": "unbleached flour",
+            "weight": 250.0,
+            "foodCategory": "grains",
+            "foodId": "food_ar3x97tbq9o9p6b6gzwj0am0c81l",
+            "image": "https://www.edamam.com/food-img/368/368077bbcab62f862a8c766a56ea5dd1.jpg"
+          },
+          {
+            "text": "1/2 teaspoon salt",
+            "quantity": 0.5,
+            "measure": "teaspoon",
+            "food": "salt",
+            "weight": 3.0,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": "2/3 cup warm water",
+            "quantity": 0.6666666666666666,
+            "measure": "cup",
+            "food": "water",
+            "weight": 158.0,
+            "foodCategory": "water",
+            "foodId": "food_a99vzubbk1ayrsad318rvbzr3dh0",
+            "image": "https://www.edamam.com/food-img/5dd/5dd9d1361847b2ca53c4b19a8f92627e.jpg"
+          },
+          {
+            "text": "4 teaspoons canola oil",
+            "quantity": 4.0,
+            "measure": "teaspoon",
+            "food": "canola oil",
+            "weight": 18.0,
+            "foodCategory": "Oils",
+            "foodId": "food_bk9p9aaavhvoq4bqsnprobpsiuxs",
+            "image": "https://www.edamam.com/food-img/07e/07e106ab3536d57428e5c46d009038f8.jpg"
+          },
+          {
+            "text": "1 bundle cellophane noodles, soaked in hot water to soften, drained well, and finely chopped",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "cellophane noodles",
+            "weight": 453.0,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_akmaj3zanouzjray9pa21beiazzy",
+            "image": "https://www.edamam.com/food-img/422/42214cd7816a67c36b7485b6997c7ce2.jpg"
+          },
+          {
+            "text": "4 ounces pressed tofu, finely chopped",
+            "quantity": 4.0,
+            "measure": "ounce",
+            "food": "tofu",
+            "weight": 113.3980925,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_a269ixea1yf51xbfwgnq2boiwc7x",
+            "image": "https://www.edamam.com/food-img/b6a/b6ae13c3cfe37e16f820840f90231bff.jpg"
+          },
+          {
+            "text": "1 1/2 cups Chinese chives, chopped",
+            "quantity": 1.5,
+            "measure": "cup",
+            "food": "chives",
+            "weight": 72.00000000121724,
+            "foodCategory": "vegetables",
+            "foodId": "food_btg1uzjak79lawbirsitkaeai60l",
+            "image": "https://www.edamam.com/food-img/f3f/f3f48643a924ba174b894e979cb48620.jpg"
+          },
+          {
+            "text": "3/4 teaspoon salt",
+            "quantity": 0.75,
+            "measure": "teaspoon",
+            "food": "salt",
+            "weight": 4.5,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": "1/2 teaspoon white pepper",
+            "quantity": 0.5,
+            "measure": "teaspoon",
+            "food": "white pepper",
+            "weight": 1.2,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a443px0bncpqa5avv80p3anrp26k",
+            "image": "https://www.edamam.com/food-img/4f0/4f0e35fe6c042996408b337fb550324a.jpg"
+          },
+          {
+            "text": "1/2 teaspoon sugar",
+            "quantity": 0.5,
+            "measure": "teaspoon",
+            "food": "sugar",
+            "weight": 2.1,
+            "foodCategory": "sugars",
+            "foodId": "food_axi2ijobrk819yb0adceobnhm1c2",
+            "image": "https://www.edamam.com/food-img/ecb/ecb3f5aaed96d0188c21b8369be07765.jpg"
+          },
+          {
+            "text": "1 tablespoon cornstarch",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "cornstarch",
+            "weight": 7.999999999864745,
+            "foodCategory": null,
+            "foodId": "food_bevnfkfbvjm45pbbgj9nsb3ypntm",
+            "image": "https://www.edamam.com/food-img/f9b/f9b74d9495b40c0aea955c37a1fc39dc.jpg"
+          },
+          {
+            "text": "1 tablespoon sesame oil",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "sesame oil",
+            "weight": 13.6,
+            "foodCategory": "Oils",
+            "foodId": "food_b2id9opa0l5afvbw2do5xa1fnz4q",
+            "image": "https://www.edamam.com/food-img/b87/b874ddcfb6770adc7a155355a902ffb8.jpg"
+          },
+          {
+            "text": "1 large egg",
+            "quantity": 1.0,
+            "measure": "<unit>",
+            "food": "egg",
+            "weight": 50.0,
+            "foodCategory": "Eggs",
+            "foodId": "food_bhpradua77pk16aipcvzeayg732r",
+            "image": "https://www.edamam.com/food-img/a7e/a7ec7c337cb47c6550b3b118e357f077.jpg"
+          },
+          {
+            "text": "canola oil",
+            "quantity": 0.0,
+            "measure": null,
+            "food": "canola oil",
+            "weight": 15.59645405801471,
+            "foodCategory": "Oils",
+            "foodId": "food_bk9p9aaavhvoq4bqsnprobpsiuxs",
+            "image": "https://www.edamam.com/food-img/07e/07e106ab3536d57428e5c46d009038f8.jpg"
+          }
+        ],
+        "totalTime": 0.0,
+        "cuisineType": [
+          "chinese",
+          "asian"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "starter"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/a61694693d4fddbaa0d56c6db3e383fe?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_e855463903f5e029d94434333037bd76",
+        "label": "Soba Noodle Salad With Peanut Sauce",
+        "image": "https://www.edamam.com/web-img/edc/edcb1d1033b9deec751a0277cd475bad.jpg",
+        "source": "Betty Crocker",
+        "url": "http://www.bettycrocker.com/recipes/soba-noodle-salad-with-peanut-sauce/ce185024-4d85-4126-a490-53b31c6a2d61",
+        "yield": 4.0,
+        "ingredientLines": [
+          "1 package (8 oz) uncooked udon or soba (buckwheat) noodles",
+          "2 cups Cascadian Farm® frozen organic cut green beans (from 16-oz bag), thawed",
+          "1 tablespoon peanut butter",
+          "1 tablespoon tamari or soy sauce",
+          "1 tablespoon rice vinegar or cider vinegar",
+          "2 teaspoons honey",
+          "2 teaspoons hot chili paste with garlic",
+          "1/3 cup water"
+        ],
+        "ingredients": [
+          {
+            "text": "1 package (8 oz) uncooked udon or soba (buckwheat) noodles",
+            "quantity": 8.0,
+            "measure": "ounce",
+            "food": "noodles",
+            "weight": 226.796185,
+            "foodCategory": "grains",
+            "foodId": "food_aefg3gqa71nrtpbhjfo3yb36kd81",
+            "image": "https://www.edamam.com/food-img/800/800c9c0d7cef6b5474723682ffa2878d.jpg"
+          },
+          {
+            "text": "2 cups Cascadian Farm® frozen organic cut green beans (from 16-oz bag), thawed",
+            "quantity": 2.0,
+            "measure": "cup",
+            "food": "green beans",
+            "weight": 200.0,
+            "foodCategory": "vegetables",
+            "foodId": "food_aceucvpau4a8v6atkx5eabxyoqdn",
+            "image": "https://www.edamam.com/food-img/891/89135f10639878a2360e6a33c9af3d91.jpg"
+          },
+          {
+            "text": "1 tablespoon peanut butter",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "peanut butter",
+            "weight": 16.0,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_bz6b8fsbccyn3zaij72f7av8dl9m",
+            "image": "https://www.edamam.com/food-img/d74/d740276ae1409472a8714b2cee88a310.jpg"
+          },
+          {
+            "text": "1 tablespoon tamari or soy sauce",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "soy sauce",
+            "weight": 16.0,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_a5g9yevb1iactoaiimbvjbkrxueh",
+            "image": "https://www.edamam.com/food-img/f56/f562e461eb0618f367f538b836c17b82.jpg"
+          },
+          {
+            "text": "1 tablespoon rice vinegar or cider vinegar",
+            "quantity": 1.0,
+            "measure": "tablespoon",
+            "food": "rice vinegar",
+            "weight": 14.9,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_axlcd4tack2d20bveizm4ayu0h2w",
+            "image": "https://www.edamam.com/food-img/5f6/5f69b84c399d778c4728e9ab4f8065a2.jpg"
+          },
+          {
+            "text": "2 teaspoons honey",
+            "quantity": 2.0,
+            "measure": "teaspoon",
+            "food": "honey",
+            "weight": 14.125000000716435,
+            "foodCategory": null,
+            "foodId": "food_bn6aoj9atkqx8fbkli859bbbxx62",
+            "image": "https://www.edamam.com/food-img/198/198c7b25c23b4235b4cc33818c7b335f.jpg"
+          },
+          {
+            "text": "2 teaspoons hot chili paste with garlic",
+            "quantity": 2.0,
+            "measure": "teaspoon",
+            "food": "chili paste",
+            "weight": 10.20833333385111,
+            "foodCategory": "canned soup",
+            "foodId": "food_ayjzfd9bhvwqorb6m5iq3bekq7cj",
+            "image": "https://www.edamam.com/food-img/12f/12f4b9a8e738f35b7dd787a5360e4a45.jpg"
+          },
+          {
+            "text": "1/3 cup water",
+            "quantity": 0.3333333333333333,
+            "measure": "cup",
+            "food": "water",
+            "weight": 79.0,
+            "foodCategory": "water",
+            "foodId": "food_a99vzubbk1ayrsad318rvbzr3dh0",
+            "image": "https://www.edamam.com/food-img/5dd/5dd9d1361847b2ca53c4b19a8f92627e.jpg"
+          }
+        ],
+        "totalTime": 0.0,
+        "cuisineType": [
+          "chinese"
+        ],
+        "mealType": [
+          "lunch/dinner"
+        ],
+        "dishType": [
+          "salad",
+          "main course"
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.edamam.com/api/recipes/v2/e855463903f5e029d94434333037bd76?type=public&app_id=f75abf70&app_key=f6d6e342a0c7ef3775b7c08902b3ed0d",
+          "title": "Self"
+        }
+      }
+    }
+  ]
+}
