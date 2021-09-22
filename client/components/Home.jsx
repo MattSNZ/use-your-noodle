@@ -87,7 +87,7 @@ function Home () {
                       </Typography>
                     </CardContent>
                     <CardActions>
-                      <Button size="medium" href={item.recipe.url} target="_blank">{`View on ${item.recipe.source}`}</Button>
+                      <Button size="medium" href={item.recipe.url} align="center" target="_blank">{`View on ${item.recipe.source}`}</Button>
                     </CardActions>
                   </Card>
                 </Grid>
