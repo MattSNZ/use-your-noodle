@@ -1,17 +1,27 @@
 import React from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+
 import Album from './Album'
 import Home from './Home'
-import CssBaseline from '@mui/material/CssBaseline'
+import NavBar from './NavBar'
+import Footer from './Footer'
 
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import CssBaseline from '@mui/material/CssBaseline'
+import { createTheme, ThemeProvider } from '@mui/material/styles'
+
+const theme = createTheme()
 
 const App = () => {
   return (
-    <Router>
-      <CssBaseline />
-      <Route path="/album" component={Album} />
-      <Route pate="/" component={Home} />
-    </Router>
+    <ThemeProvider theme={theme}>
+      <NavBar />
+      <Router>
+        <CssBaseline />
+        <Route path="/album" component={Album} />
+        <Route pate="/" component={Home} />
+      </Router>
+      <Footer />
+    </ThemeProvider>
   )
 }
 
