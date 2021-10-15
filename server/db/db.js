@@ -8,5 +8,6 @@ const getAllFruit = (db = connection) => {
 }
 
 module.exports = {
-  getAllFruit
+  getAllFruit,
+  connection
 }
