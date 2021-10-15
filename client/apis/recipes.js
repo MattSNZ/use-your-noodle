@@ -6,7 +6,6 @@ export const getRecipes = query => {
   return request.get(baseUrl)
     .query({ search: query })
     .then(response => {
-      console.log(response)
       return response.body.hits
     })
 }

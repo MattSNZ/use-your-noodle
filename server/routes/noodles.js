@@ -32,8 +32,6 @@ const searchQueryObj = {
 router.get('/', (req, res) => {
   searchQueryObj.q = req.query.search
 
-  console.log(authQueryObj, searchQueryObj)
-
   return request.get(baseUrl)
     .query({ ...authQueryObj, ...searchQueryObj })
     .then(response => res.json(response.body))
@@ -53,20 +51,5 @@ router.get('/:id', (req, res) => {
       return res.status(500).send('500 error :(')
     })
 })
-
-// export const getRecipes = (query) => {
-//   searchQueryObj.q = query
-
-//   return request.get(baseUrl)
-//     .query({ ...authQueryObj, ...searchQueryObj })
-//     .then(response => response.body)
-//     .then(response => console.log(response))
-// }
-
-// export const getRecipeByID = id => {
-//   return request.get(baseUrl + '/' + id)
-//     .query(authQueryObj)
-//     .then(response => response.body)
-// }
 
 module.exports = router
