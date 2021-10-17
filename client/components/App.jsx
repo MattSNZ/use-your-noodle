@@ -18,7 +18,8 @@ const App = () => {
       <Router>
         <CssBaseline />
         <Route path="/album" component={Album} />
-        <Route pate="/" component={Home} />
+        <Route exact path="/" component={Home} />
+        {/* <Route path="/faves" component={Home} /> TODO: MAKE THIS WORK */}
       </Router>
       <Footer />
     </ThemeProvider>

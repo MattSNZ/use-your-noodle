@@ -14,3 +14,9 @@ export const getRecipeByID = id => {
   return request.get(`${baseUrl}${id}`)
     .then(response => response.body)
 }
+
+export const postFaveRecipe = recipe => {
+  return request.post(baseUrl)
+    .send(recipe)
+    .then(response => response.body)
+}

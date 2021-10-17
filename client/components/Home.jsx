@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography'
 // const { hits: noodles } = require('../../noodles.json')
 // const noodles = getRecipes()
 
-function Home () {
+function Home (props) {
   const [noodles, setNoodles] = useState(null)
 
   const refreshNoodles = () => {

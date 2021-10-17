@@ -1,9 +1,11 @@
+// const db = require('../db/db')
+const { insertRecipe, getFaveRecipes } = require('../db/db')
+
 const request = require('superagent')
+const camel = require('camelcase-keys')
 
 const express = require('express')
 const router = express.Router()
-
-// const db = require('../db/db')
 
 const baseUrl = 'https://api.edamam.com/api/recipes/v2'
 const authQueryObj = {
@@ -41,11 +43,35 @@ router.get('/', (req, res) => {
     })
 })
 
+router.get('/fave', (req, res) => {
+  getFaveRecipes()
+    .then(recipes => res.json(camel(recipes)))
+    .catch(err => {
+      console.log(err.message)
+      return res.status(500).send('500 error :(')
+    })
+})
+
 router.get('/:id', (req, res) => {
   const id = req.params.id
 
   return request.get(`${baseUrl}/${id}`)
     .then(response => res.json(response.body))
+    .catch(err => {
+      console.log(err.message)
+      return res.status(500).send('500 error :(')
+    })
+})
+
+router.post('/', (req, res) => {
+  const recipe = req.body
+
+  insertRecipe(recipe)
+    .then(idArr => {
+      recipe.id = idArr[0]
+      res.json(camel(recipe))
+      return null
+    })
     .catch(err => {
       console.log(err.message)
       return res.status(500).send('500 error :(')
