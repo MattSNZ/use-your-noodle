@@ -9,13 +9,31 @@ import Footer from './Footer'
 import CssBaseline from '@mui/material/CssBaseline'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 
-const theme = createTheme()
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#55917F'
+    },
+    secondary: {
+      main: '#B2675E'
+    },
+    background: {
+      default: 'eff1f3'
+    }
+  },
+  typography: {
+    fontFamily: 'Montserrat',
+    fontWeightLight: 400,
+    fontWeightRegular: 500,
+    fontWeightMedium: 600,
+    fontWeightHeavy: 700
+  }
+})
 
 const App = () => {
   const [faves, setFaves] = useState(false)
   const toggleFaves = () => {
     setFaves(!faves)
-    console.log(faves)
   }
 
   return (

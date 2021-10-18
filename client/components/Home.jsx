@@ -43,17 +43,24 @@ function Home ({ faves }) {
           color="text.primary"
           gutterBottom
         >
-            It&apos;s simple really.
+          It&apos;s simple really.
         </Typography>
         <Typography
           variant="h5"
           color="text.primary"
           gutterBottom
         >
-            You tell us about your noodle and we&apos;ll tell you how to use your noodle.
+          Check out the recipes below for how to use your noodle.
+        </Typography>
+        <Typography
+          variant="h5"
+          color="text.primary"
+          gutterBottom
+        >
+          Click the heart to save to favourites.
         </Typography>
       </Container>
-      <Container sx={{ py: 8 }} maxWidth="md">
+      <Container sx={{ py: 5 }} maxWidth="md">
         <Grid container spacing={4}>
           {noodles?.map((item, i) => (
             <NoodleCard noodle={item} key={i}/>
