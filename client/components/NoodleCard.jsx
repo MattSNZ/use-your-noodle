@@ -1,6 +1,6 @@
 // I'm really sorry about the state of this file! It works though :D
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { postFaveRecipe } from '../apis/recipes'
 
 import Grid from '@mui/material/Grid'
@@ -38,21 +38,28 @@ const snake = require('snakecase-keys')
 export default function NoodleCard ({ noodle }) {
   // const [expanded, setExpanded] = useState(false)
   const [faveColor, setFaveColor] = useState('default')
+  const [faveDisabled, setFaveDisabled] = useState(false)
+
+  useEffect(() => {
+    if (noodle.id) {
+      setFaveColor('secondary')
+      setFaveDisabled(true)
+    }
+  }, [])
 
   const faveClick = () => {
     const recipe = {
-      externalId: noodle.recipe.uri.split('#')[1],
-      label: noodle.recipe.label,
-      image: noodle.recipe.image,
-      source: noodle.recipe.source,
-      url: noodle.recipe.url,
-      yield: noodle.recipe.yield,
-      cuisineType: noodle.recipe.cuisineType[0],
-      mealType: noodle.recipe.mealType[0],
-      dishType: noodle.recipe.dishType[0],
-      totalTime: noodle.recipe.totalTime
+      externalId: noodle.uri.split('#')[1],
+      label: noodle.label,
+      image: noodle.image,
+      source: noodle.source,
+      url: noodle.url,
+      yield: noodle.yield,
+      cuisineType: noodle.cuisineType[0],
+      mealType: noodle.mealType[0],
+      dishType: noodle.dishType[0],
+      totalTime: noodle.totalTime
     }
-    console.log(recipe)
     postFaveRecipe(snake(recipe))
       // .then(response => setToast(response))
       .then(() => setFaveColor('secondary'))
@@ -61,25 +68,25 @@ export default function NoodleCard ({ noodle }) {
 
   // const handleExpandClick = () => {
   //   setExpanded(!expanded)
-  //   // console.log(noodle.recipe.ingredientLines)
+  //   // console.log(noodle.ingredientLines)
   // }
 
   return (
     <Grid item xs={12} sm={6} md={4}>
       <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
         <CardHeader
-          title={noodle.recipe.label}
+          title={noodle.label}
         />
         <CardMedia
           component="img"
           sx={{ pt: '5px', flex: 1 }}
-          image={noodle.recipe.image}
-          alt={noodle.recipe.label}
+          image={noodle.image}
+          alt={noodle.label}
         />
         <CardActions sx={{ justifyContent: 'flex-end' }} >
           <IconButton
-            aria-label={`view on ${noodle.recipe.source}`}
-            href={noodle.recipe.url}
+            aria-label={`view on ${noodle.source}`}
+            href={noodle.url}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -89,6 +96,7 @@ export default function NoodleCard ({ noodle }) {
             aria-label="add to favorites"
             onClick={faveClick}
             color={faveColor}
+            disabled={faveDisabled}
           >
             <FavoriteIcon />
           </IconButton>
@@ -105,7 +113,7 @@ export default function NoodleCard ({ noodle }) {
           <CardContent sx={{ flexGrow: 1 }}>
             <List component="ul" dense={true} >
               <ul>
-                {noodle.recipe.ingredients.map((ingredient, i) => {
+                {noodle.ingredients.map((ingredient, i) => {
                 // <li>
                 //   {`It's option ${ingredient.text}`}
                 // </li>

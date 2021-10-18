@@ -6,7 +6,7 @@ export const getRecipes = query => {
   return request.get(baseUrl)
     .query({ search: query })
     .then(response => {
-      return response.body.hits
+      return response.body
     })
 }
 
@@ -18,5 +18,10 @@ export const getRecipeByID = id => {
 export const postFaveRecipe = recipe => {
   return request.post(baseUrl)
     .send(recipe)
+    .then(response => response.body)
+}
+
+export const getFaveRecipes = () => {
+  return request.get(`${baseUrl}faves`)
     .then(response => response.body)
 }

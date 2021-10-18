@@ -1,11 +1,11 @@
 {
-  "name": "boilerplate-react-knex",
+  "name": "use-your-noodle",
   "version": "0.0.1",
-  "description": "A React and knex starter",
-  "repository": "https://github.com/dev-academy-challenges/boilerplate-react-knex.git",
+  "description": "A site to help you use your noodle",
+  "repository": "https://github.com/MattSNZ/use-your-noodle.git",
   "main": "server/index.js",
-  "author": "EDA",
-  "license": "ISC",
+  "author": "MattSNZ",
+  "license": "MIT",
   "scripts": {
     "start": "node server",
     "build": "npm run webpack",

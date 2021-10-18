@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { getRecipes } from '../apis/recipes'
+import { getRecipes, getFaveRecipes } from '../apis/recipes'
 
 import NoodleCard from './NoodleCard'
 
@@ -11,17 +11,23 @@ import Typography from '@mui/material/Typography'
 // const { hits: noodles } = require('../../noodles.json')
 // const noodles = getRecipes()
 
-function Home (props) {
+function Home ({ faves }) {
   const [noodles, setNoodles] = useState(null)
 
-  const refreshNoodles = () => {
+  const randomNoodles = () => {
     return getRecipes('noodles')
       .then(data => setNoodles(data))
   }
 
+  const showFaves = () => {
+    getFaveRecipes()
+      .then(data => setNoodles(data))
+      .catch(err => console.log(err.message))
+  }
+
   useEffect(() => {
-    refreshNoodles()
-  }, [])
+    faves ? showFaves() : randomNoodles()
+  }, [faves])
 
   return (
     <Box

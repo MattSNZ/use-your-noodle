@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Album from './Album'
@@ -12,14 +12,19 @@ import { createTheme, ThemeProvider } from '@mui/material/styles'
 const theme = createTheme()
 
 const App = () => {
+  const [faves, setFaves] = useState(false)
+  const toggleFaves = () => {
+    setFaves(!faves)
+    console.log(faves)
+  }
+
   return (
     <ThemeProvider theme={theme}>
-      <NavBar />
+      <NavBar toggleFaves={toggleFaves} faves={faves}/>
       <Router>
         <CssBaseline />
         <Route path="/album" component={Album} />
-        <Route exact path="/" component={Home} />
-        {/* <Route path="/faves" component={Home} /> TODO: MAKE THIS WORK */}
+        <Route path="/" render={() => (<Home faves={faves} />)} />
       </Router>
       <Footer />
     </ThemeProvider>

@@ -21,8 +21,8 @@ const searchQueryObj = {
     'source',
     'url',
     'yield',
-    'ingredientLines',
-    'ingredients',
+    // 'ingredientLines',
+    // 'ingredients',
     'totalTime',
     'cuisineType',
     'mealType',
@@ -36,14 +36,18 @@ router.get('/', (req, res) => {
 
   return request.get(baseUrl)
     .query({ ...authQueryObj, ...searchQueryObj })
-    .then(response => res.json(response.body))
+    .then(response => {
+      const recipeArr = []
+      response.body.hits.map(x => recipeArr.push(x.recipe))
+      return res.json(recipeArr)
+    })
     .catch(err => {
       console.log(err.message)
       return res.status(500).send('500 error :(')
     })
 })
 
-router.get('/fave', (req, res) => {
+router.get('/faves', (req, res) => {
   getFaveRecipes()
     .then(recipes => res.json(camel(recipes)))
     .catch(err => {
