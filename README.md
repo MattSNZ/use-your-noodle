@@ -1,22 +1,29 @@
-# A starter webpack project for React with databases
+# A website that helps you use your noodle
 
-This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider these steps:
+This is a personal project that combines my interest in coding and my love of noodles.
 
-* Use as template or fork this repo
-* Rename your repo according to the app you're building
+## Getting Started
 
-```sh
-git clone https://github.com/[your-account]/[your-app].git
-cd [your-app] && npm i
+```
+git clone https://github.com/MattSNZ/use-your-noodle.git
+cd use-your-noodle
+cp server/.env.example server/.env    # enable environment variables - DM Matt
+npm install                           # install dependencies
+npm run knex migrate:latest           # create database
+npm run knex seed:run                 # create seeds
+npm run dev                           # start the dev server
 ```
 
-To initialise your database
-```
-npm run knex migrate:latest
-npm run knex seed:run
-```
+Once you've done that, you can use your noodle on localhost:3000
 
-To start the development server with a watcher that rebuilds your code
-```sh
-npm run dev
-``` 
+---
+
+**TODO:**
+
+[ ] Search by *type* of noodle.
+
+[ ] Add Snackbar component for saving favourites
+
+[ ] Complete implmentation of users
+
+*Plenty else*

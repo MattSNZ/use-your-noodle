@@ -3,11 +3,17 @@ const config = require('./knexfile')
 const env = process.env.NODE_ENV || 'development'
 const connection = knex(config[env])
 
+const getFaveRecipes = (db = connection) => {
+  return db('recipes')
+}
 
-const getAllFruit = (db = connection) => {
-  return db('fruit')
+const insertRecipe = (recipe, db = connection) => {
+  return db('recipes')
+    .insert(recipe)
 }
 
 module.exports = {
-  getAllFruit
+  getFaveRecipes,
+  insertRecipe,
+  connection
 }
