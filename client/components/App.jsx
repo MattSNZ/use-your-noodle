@@ -5,6 +5,7 @@ import Album from './Album'
 import Home from './Home'
 import NavBar from './NavBar'
 import Footer from './Footer'
+import UserDialog from './UserDialog'
 
 import CssBaseline from '@mui/material/CssBaseline'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
@@ -31,16 +32,55 @@ const theme = createTheme({
 })
 
 const App = () => {
+  const [openDialog, setOpenDialog] = useState(false)
   const [faves, setFaves] = useState(false)
+  const [register, setRegister] = useState(true)
+
   const toggleFaves = () => {
     setFaves(!faves)
   }
 
+  // const openDialog = () => {
+  //   setOpen(true)
+  //   console.log(open)
+  // }
+
+  const closeDialog = () => {
+    setOpenDialog(false)
+    console.log(openDialog)
+  }
+
+  const handleLoginOpen = () => {
+    setRegister(false)
+    setOpenDialog(true)
+    console.log('Register: ', register)
+    console.log('OpenDialog: ', openDialog)
+  }
+
+  const handleRegisterOpen = () => {
+    setRegister(true)
+    setOpenDialog(true)
+    console.log('Register: ', register)
+    console.log('OpenDialog: ', openDialog)
+  }
+
   return (
     <ThemeProvider theme={theme}>
-      <NavBar toggleFaves={toggleFaves} faves={faves}/>
+      <CssBaseline />
+      <NavBar
+        toggleFaves={toggleFaves}
+        faves={faves}
+        handleLoginOpen={handleLoginOpen}
+        handleRegisterOpen={handleRegisterOpen}
+      />
+      { openDialog && <UserDialog
+        closeDialog={closeDialog}
+        open={openDialog}
+        register={register}
+        handleLoginOpen={handleLoginOpen}
+        handleRegisterOpen={handleRegisterOpen}
+      />}
       <Router>
-        <CssBaseline />
         <Route path="/album" component={Album} />
         <Route path="/" render={() => (<Home faves={faves} />)} />
       </Router>
