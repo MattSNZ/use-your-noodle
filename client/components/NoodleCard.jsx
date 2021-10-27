@@ -47,46 +47,47 @@ export default function NoodleCard ({ noodle }) {
     }
   }, [])
 
+  const recipe = {
+    externalId: noodle.uri.split('#')[1],
+    label: noodle.label,
+    image: noodle.image,
+    source: noodle.source,
+    url: noodle.url,
+    yield: noodle.yield,
+    cuisineType: noodle.cuisineType[0],
+    mealType: noodle.mealType[0],
+    dishType: noodle.dishType[0],
+    totalTime: noodle.totalTime
+  }
+
   const faveClick = () => {
-    const recipe = {
-      externalId: noodle.uri.split('#')[1],
-      label: noodle.label,
-      image: noodle.image,
-      source: noodle.source,
-      url: noodle.url,
-      yield: noodle.yield,
-      cuisineType: noodle.cuisineType[0],
-      mealType: noodle.mealType[0],
-      dishType: noodle.dishType[0],
-      totalTime: noodle.totalTime
-    }
     postFaveRecipe(snake(recipe))
-      // .then(response => setToast(response))
       .then(() => setFaveColor('secondary'))
+    // .then(response => setToast(response))
       .catch(err => console.log(err))
   }
 
   // const handleExpandClick = () => {
   //   setExpanded(!expanded)
-  //   // console.log(noodle.ingredientLines)
+  //   // console.log(recipe.ingredientLines)
   // }
 
   return (
-    <Grid item xs={12} sm={6} md={4}>
+    <Grid item xs={12} sm={6} md={4} lg={3} >
       <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
         <CardHeader
-          title={noodle.label}
+          title={recipe.label}
         />
         <CardMedia
           component="img"
           sx={{ pt: '5px', flex: 1 }}
-          image={noodle.image}
-          alt={noodle.label}
+          image={recipe.image}
+          alt={recipe.label}
         />
         <CardActions sx={{ justifyContent: 'flex-end' }} >
           <IconButton
-            aria-label={`view on ${noodle.source}`}
-            href={noodle.url}
+            aria-label={`view on ${recipe.source}`}
+            href={recipe.url}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -113,7 +114,7 @@ export default function NoodleCard ({ noodle }) {
           <CardContent sx={{ flexGrow: 1 }}>
             <List component="ul" dense={true} >
               <ul>
-                {noodle.ingredients.map((ingredient, i) => {
+                {recipe.ingredients.map((ingredient, i) => {
                 // <li>
                 //   {`It's option ${ingredient.text}`}
                 // </li>

@@ -70,8 +70,8 @@ function Home ({ faves, openDialog, register, toggleDialog }) {
             </Typography>
           </IfNotAuthenticated>
         </Container>
-        <Container sx={{ py: 5 }} maxWidth="md">
-          <Grid container spacing={4}>
+        <Container sx={{ py: 5 }} maxWidth="lg">
+          <Grid container spacing={3}>
             {noodles?.map((item, i) => (
               <NoodleCard noodle={item} key={i}/>
             ))}

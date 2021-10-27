@@ -1,23 +1,32 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { baseApiUrl as baseUrl } from '../config'
 import { register, signIn, isAuthenticated } from 'authenticare/client'
+import { useHistory } from 'react-router-dom'
 import Error from './Error'
 
+import AppBar from '@mui/material/AppBar'
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
 import Dialog from '@mui/material/Dialog'
 import DialogActions from '@mui/material/DialogActions'
 import DialogContent from '@mui/material/DialogContent'
+import Tab from '@mui/material/Tab'
+import Tabs from '@mui/material/Tabs'
 import TextField from '@mui/material/TextField'
 import Typography from '@mui/material/Typography'
 
-function UserDialog (props, { openDialog, closeDialog, register: registering }) {
+function UserDialog (props) {
+  const { openDialog, closeDialog, register: registering, handleLoginOpen, handleRegisterOpen } = props
   const [error, setError] = useState('')
   const [openError, setOpenError] = useState(false)
   const [form, setForm] = useState({
     username: '',
     password: ''
   })
+  const tabValueAtOpen = registering ? 'register' : 'login'
+  const [tabValue, setTabValue] = useState(tabValueAtOpen)
+
+  const history = useHistory()
 
   const hideError = () => {
     setError('')
@@ -32,6 +41,10 @@ function UserDialog (props, { openDialog, closeDialog, register: registering }) 
     })
   }
 
+  const handleTabChange = (event, newValue) => {
+    setTabValue(newValue)
+  }
+
   function handleSubmit (e) {
     e.preventDefault()
     const { username, password } = form
@@ -40,7 +53,9 @@ function UserDialog (props, { openDialog, closeDialog, register: registering }) 
       return register({ username, password }, { baseUrl })
         .then((token) => {
           if (isAuthenticated()) {
-            props.history.push('/')
+            console.log('registered!')
+            history.push('/')
+            closeDialog()
           }
           return null
         })
@@ -54,22 +69,20 @@ function UserDialog (props, { openDialog, closeDialog, register: registering }) 
       return signIn({ username, password }, { baseUrl })
         .then((token) => {
           if (isAuthenticated()) {
-            props.history.push('/')
+            closeDialog()
+            history.push('/')
+            console.log('logged in!')
           }
           return null
         })
         .catch(err => {
           if (err.message === 'INVALID_CREDENTIALS') {
             setError('Username and password combination not found')
+            setOpenError(true)
           }
         })
     }
   }
-
-  useEffect(() => {
-    console.log('Register: ', registering)
-    console.log('OpenDialog: ', openDialog)
-  }, [])
 
   return (
     <Dialog
@@ -79,6 +92,18 @@ function UserDialog (props, { openDialog, closeDialog, register: registering }) 
       maxWidth="sm"
       fullWidth={true}
     >
+      <AppBar position="static">
+        <Tabs
+          value={tabValue}
+          onChange={handleTabChange}
+          indicatorColor="secondary"
+          textColor="inherit"
+          variant="fullWidth"
+        >
+          <Tab label="Log In" value='login' onClick={handleLoginOpen} />
+          <Tab label="Register" value='register' onClick={handleRegisterOpen} />
+        </Tabs>
+      </AppBar>
       <DialogContent dividers={true}>
         <Box
           component="form"
@@ -89,19 +114,20 @@ function UserDialog (props, { openDialog, closeDialog, register: registering }) 
           // autoComplete="off"
           onSubmit={handleSubmit}
         >
-          { openError &&
-        <Error
-          hideError={hideError}
-          error={error}
-        >
-          {`${error}`}
-        </Error>
+          { error && <Error
+            hideError={hideError}
+            // error={error}
+            openError={openError}
+          >
+            {`${error}`}
+          </Error>
           }
           <Typography
             component="h5"
             variant="h5"
+            align='center'
           >
-            Register an account to Use Your Noodle
+            { registering ? 'Register an account' : 'Log in' } to Use Your Noodle
           </Typography>
           <TextField
             required
@@ -110,23 +136,25 @@ function UserDialog (props, { openDialog, closeDialog, register: registering }) 
             value={form.username}
             onChange={handleChange}
             label="Email"
-            fullWidth
+            fullWidth={true}
+            variant='standard'
           />
           <TextField
             required
-            fullWidth
+            fullWidth={true}
             id='password'
             name='password'
             value={form.password}
             onChange={handleChange}
             label="Password"
             type="password"
-            autoComplete={register ? 'new-password' : 'current-password'}
+            autoComplete={ registering ? 'new-password' : 'current-password'}
+            variant='standard'
           />
         </Box>
       </DialogContent>
       <DialogActions>
-        <Button onClick={handleSubmit}>{register ? 'Register' : 'Login'}</Button>
+        <Button onClick={handleSubmit}>{registering ? 'Register' : 'Login'}</Button>
         <Button onClick={closeDialog}>Back</Button>
       </DialogActions>
     </Dialog>

@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import { logOff } from 'authenticare/client'
+import { useHistory } from 'react-router-dom'
 
 import { IfAuthenticated, IfNotAuthenticated } from './Authenticated'
 
@@ -12,9 +14,10 @@ import Stack from '@mui/material/Stack'
 import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
 
-export default function NavBar ({ toggleFaves, faves, handleLoginOpen, handleRegisterOpen }) {
+export default function NavBar ({ toggleFaves, faves, handleLoginOpen, handleRegisterOpen, closeDialog }) {
   const [faveColor, setFaveColor] = useState('primary')
   const [buttonText, setButtonText] = useState('Show favourites')
+  const history = useHistory()
 
   useEffect(() => {
     faves ? setFaveColor('secondary') : setFaveColor('primary')
@@ -22,16 +25,9 @@ export default function NavBar ({ toggleFaves, faves, handleLoginOpen, handleReg
   }, [faves])
 
   const handleLogout = () => {
-    return null // TODO use Authenticare Logout
+    logOff()
+    history.push('/')
   }
-  // const handleRegister = () => {
-  //   openDialog()
-  //   enableRegister()
-  // }
-  // const handleLogin = () => {
-  //   enableLogin()
-  //   openDialog()
-  // }
 
   return (
     <AppBar position="relative">

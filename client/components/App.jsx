@@ -40,47 +40,39 @@ const App = () => {
     setFaves(!faves)
   }
 
-  // const openDialog = () => {
-  //   setOpen(true)
-  //   console.log(open)
-  // }
-
-  const closeDialog = () => {
-    setOpenDialog(false)
-    console.log(openDialog)
-  }
-
   const handleLoginOpen = () => {
     setRegister(false)
     setOpenDialog(true)
-    console.log('Register: ', register)
-    console.log('OpenDialog: ', openDialog)
   }
 
   const handleRegisterOpen = () => {
     setRegister(true)
     setOpenDialog(true)
-    console.log('Register: ', register)
-    console.log('OpenDialog: ', openDialog)
+  }
+
+  const closeDialog = () => {
+    setOpenDialog(false)
   }
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <NavBar
-        toggleFaves={toggleFaves}
-        faves={faves}
-        handleLoginOpen={handleLoginOpen}
-        handleRegisterOpen={handleRegisterOpen}
-      />
-      { openDialog && <UserDialog
-        closeDialog={closeDialog}
-        open={openDialog}
-        register={register}
-        handleLoginOpen={handleLoginOpen}
-        handleRegisterOpen={handleRegisterOpen}
-      />}
       <Router>
+        <Route path="/" render={() => (
+          <NavBar
+            toggleFaves={toggleFaves}
+            faves={faves}
+            handleLoginOpen={handleLoginOpen}
+            handleRegisterOpen={handleRegisterOpen}
+          />
+        )} />
+        { openDialog && <UserDialog
+          closeDialog={closeDialog}
+          openDialog={openDialog}
+          register={register}
+          handleLoginOpen={handleLoginOpen}
+          handleRegisterOpen={handleRegisterOpen}
+        />}
         <Route path="/album" component={Album} />
         <Route path="/" render={() => (<Home faves={faves} />)} />
       </Router>

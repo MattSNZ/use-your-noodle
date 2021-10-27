@@ -5,9 +5,9 @@ import Collapse from '@mui/material/Collapse'
 import CloseIcon from '@mui/icons-material/Close'
 import IconButton from '@mui/material/IconButton'
 
-export default function Error ({ children, openError, setOpenError }) {
+export default function Error ({ children, openError, hideError }) {
   return (
-    <Collapse in={openError}>
+    <Collapse in={openError} >
       <Alert
         severity="error"
         action={
@@ -15,9 +15,7 @@ export default function Error ({ children, openError, setOpenError }) {
             aria-label="close"
             color="inherit"
             size="small"
-            onClick={() => {
-              setOpenError(false)
-            }}
+            onClick={hideError}
           >
             <CloseIcon fontSize="inherit" />
           </IconButton>
