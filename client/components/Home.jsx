@@ -32,8 +32,8 @@ function Home ({ faves, openDialog, register, toggleDialog }) {
       <Box
         sx={{
         // bgcolor: 'background.paper',
-          pt: 8,
-          pb: 6
+          pt: 5,
+          pb: 5
         }}
       >
         <Container maxWidth="sm">
@@ -71,9 +71,9 @@ function Home ({ faves, openDialog, register, toggleDialog }) {
           </IfNotAuthenticated>
         </Container>
         <Container sx={{ py: 5 }} maxWidth="lg">
-          <Grid container spacing={3}>
-            {noodles?.map((item, i) => (
-              <NoodleCard noodle={item} key={i}/>
+          <Grid container spacing={2}>
+            {noodles?.map((item) => (
+              <NoodleCard noodle={item} key={item.uri || item.externalId}/>
             ))}
           </Grid>
         </Container>

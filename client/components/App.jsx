@@ -19,7 +19,7 @@ const theme = createTheme({
       main: '#B2675E'
     },
     background: {
-      default: 'eff1f3'
+      default: '#EFF1F3'
     }
   },
   typography: {
@@ -75,8 +75,8 @@ const App = () => {
         />}
         <Route path="/album" component={Album} />
         <Route path="/" render={() => (<Home faves={faves} />)} />
+        <Footer />
       </Router>
-      <Footer />
     </ThemeProvider>
   )
 }
