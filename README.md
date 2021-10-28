@@ -20,10 +20,9 @@ Once you've done that, you can use your noodle on localhost:3000
 
 **TODO:**
 
-[ ] Search by *type* of noodle.
-
-[ ] Add Snackbar component for saving favourites
-
-[ ] Complete implmentation of users
+- [ ] Search by *type* of noodle.
+- [x] Add Snackbar component for saving favourites
+- [x] Register, log in, and log out
+- [ ] Add per-user favourites
 
 *Plenty else*
