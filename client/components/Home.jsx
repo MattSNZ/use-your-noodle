@@ -31,22 +31,22 @@ function Home ({ faves, openDialog, register, toggleDialog }) {
     <>
       <Box
         sx={{
-        // bgcolor: 'background.paper',
+          // color: '#000',
           pt: 5,
           pb: 5
         }}
       >
-        <Container maxWidth="sm">
+        <Container maxWidth="sm" sx={{ color: '#000'}}>
           <Typography
             variant="h5"
-            color="text.primary"
+            color="text.secondary"
             gutterBottom
           >
           It&apos;s simple really.
           </Typography>
           <Typography
             variant="h5"
-            color="text.primary"
+            color="text.secondary"
             gutterBottom
           >
           Check out the recipes below for how to use your noodle.
@@ -54,7 +54,7 @@ function Home ({ faves, openDialog, register, toggleDialog }) {
           <IfAuthenticated>
             <Typography
               variant="h5"
-              color="text.primary"
+              color="text.secondary"
               gutterBottom
             >
             Click the heart to save to your favourites.
@@ -63,7 +63,7 @@ function Home ({ faves, openDialog, register, toggleDialog }) {
           <IfNotAuthenticated>
             <Typography
               variant="h5"
-              color="text.primary"
+              color="text.secondary"
               gutterBottom
             >
             Register to save recipes as favourites.

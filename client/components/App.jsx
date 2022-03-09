@@ -13,13 +13,16 @@ import { createTheme, ThemeProvider } from '@mui/material/styles'
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#55917F'
+      main: '#BE7C4D'
     },
     secondary: {
-      main: '#B2675E'
+      main: '#ADEFD1'
     },
     background: {
-      default: '#EFF1F3'
+      default: '#00203F'
+    },
+    text: {
+      secondary: '#FFF'
     }
   },
   typography: {
@@ -73,7 +76,7 @@ const App = () => {
           handleLoginOpen={handleLoginOpen}
           handleRegisterOpen={handleRegisterOpen}
         />}
-        <Route path="/album" component={Album} />
+        <Route path="/album" render={() => (<Album />)} />
         <Route path="/" render={() => (<Home faves={faves} />)} />
         <Footer />
       </Router>
