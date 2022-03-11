@@ -9,7 +9,7 @@ import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
 
-function Home ({ faves, openDialog, register, toggleDialog }) {
+function Home ({ faves }) {
   const [noodles, setNoodles] = useState(null)
 
   const randomNoodles = () => {
@@ -28,57 +28,53 @@ function Home ({ faves, openDialog, register, toggleDialog }) {
   }, [faves])
 
   return (
-    <>
-      <Box
-        sx={{
-        // bgcolor: 'background.paper',
-          pt: 5,
-          pb: 5
-        }}
-      >
-        <Container maxWidth="sm">
+    <Box
+      sx={{
+        py: 5
+      }}
+    >
+      <Container maxWidth="sm" >
+        <Typography
+          variant="h5"
+          color="text.secondary"
+          gutterBottom
+        >
+        It&apos;s simple really.
+        </Typography>
+        <Typography
+          variant="h5"
+          color="text.secondary"
+          gutterBottom
+        >
+        Check out the recipes below for how to use your noodle.
+        </Typography>
+        <IfAuthenticated>
           <Typography
             variant="h5"
             color="text.primary"
             gutterBottom
           >
-          It&apos;s simple really.
+          Click the heart to save to your favourites.
           </Typography>
+        </IfAuthenticated>
+        <IfNotAuthenticated>
           <Typography
             variant="h5"
             color="text.primary"
             gutterBottom
           >
-          Check out the recipes below for how to use your noodle.
+          Register to save recipes as favourites.
           </Typography>
-          <IfAuthenticated>
-            <Typography
-              variant="h5"
-              color="text.primary"
-              gutterBottom
-            >
-            Click the heart to save to your favourites.
-            </Typography>
-          </IfAuthenticated>
-          <IfNotAuthenticated>
-            <Typography
-              variant="h5"
-              color="text.primary"
-              gutterBottom
-            >
-            Register to save recipes as favourites.
-            </Typography>
-          </IfNotAuthenticated>
-        </Container>
-        <Container sx={{ py: 5 }} maxWidth="lg">
-          <Grid container spacing={2}>
-            {noodles?.map((item) => (
-              <NoodleCard noodle={item} key={item.uri || item.externalId}/>
-            ))}
-          </Grid>
-        </Container>
-      </Box>
-    </>
+        </IfNotAuthenticated>
+      </Container>
+      <Container sx={{ py: 5 }} maxWidth="lg">
+        <Grid container spacing={2}>
+          {noodles?.map((item) => (
+            <NoodleCard noodle={item} key={item.uri || item.externalId}/>
+          ))}
+        </Grid>
+      </Container>
+    </Box>
   )
 }
 

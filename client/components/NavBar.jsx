@@ -30,7 +30,7 @@ export default function NavBar ({ toggleFaves, faves, handleLoginOpen, handleReg
   }
 
   return (
-    <AppBar position="relative">
+    <AppBar position="sticky">
       <Toolbar>
         <Typography variant="h2" color="inherit" noWrap sx={{ flexGrow: 1 }}>
           🍜 Use Your Noodle

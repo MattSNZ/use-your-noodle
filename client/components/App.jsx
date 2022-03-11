@@ -6,6 +6,8 @@ import Home from './Home'
 import NavBar from './NavBar'
 import Footer from './Footer'
 import UserDialog from './UserDialog'
+import Routing from './Routing'
+import Search from './Search'
 
 import CssBaseline from '@mui/material/CssBaseline'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
@@ -19,7 +21,10 @@ const theme = createTheme({
       main: '#B2675E'
     },
     background: {
-      default: '#EFF1F3'
+      default: '#214a73'
+    },
+    text: {
+      secondary: '#FFF'
     }
   },
   typography: {
@@ -73,8 +78,8 @@ const App = () => {
           handleLoginOpen={handleLoginOpen}
           handleRegisterOpen={handleRegisterOpen}
         />}
-        <Route path="/album" component={Album} />
-        <Route path="/" render={() => (<Home faves={faves} />)} />
+        <Route path="/" render={() => (<Search />)} />
+        <Route path="/noodle" render={() => (<Home faves={faves} />)} />
         <Footer />
       </Router>
     </ThemeProvider>

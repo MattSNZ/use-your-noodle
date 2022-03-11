@@ -90,7 +90,15 @@ export default function NoodleCard ({ noodle }) {
   return (
     <>
       <Grid item xs={12} sm={6} md={4} lg={3} >
-        <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+        <Card
+          sx={{
+            height: '100%',
+            display: 'flex',
+            flexDirection: 'column',
+            backgroundColor: 'secondary.main'
+          }}
+          variant="outlined"
+        >
           <CardHeader
             title={recipe.label}
           />
