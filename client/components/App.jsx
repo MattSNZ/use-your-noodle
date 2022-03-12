@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, useParams } from 'react-router-dom'
 
 import Album from './Album'
 import Home from './Home'
@@ -8,6 +8,7 @@ import Footer from './Footer'
 import UserDialog from './UserDialog'
 import Routing from './Routing'
 import Search from './Search'
+import Testing from './Testing'
 
 import CssBaseline from '@mui/material/CssBaseline'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
@@ -78,8 +79,12 @@ const App = () => {
           handleLoginOpen={handleLoginOpen}
           handleRegisterOpen={handleRegisterOpen}
         />}
-        <Route path="/" render={() => (<Search />)} />
-        <Route path="/noodle" render={() => (<Home faves={faves} />)} />
+        <Route path="/">
+          <Search />
+        </Route>
+        <Route path="/noodle/:value">
+          <Testing />
+        </Route>
         <Footer />
       </Router>
     </ThemeProvider>

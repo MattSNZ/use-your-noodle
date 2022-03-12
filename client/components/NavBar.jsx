@@ -13,6 +13,7 @@ import LogoutIcon from '@mui/icons-material/Logout'
 import Stack from '@mui/material/Stack'
 import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
+import { Link } from '@mui/material'
 
 export default function NavBar ({ toggleFaves, faves, handleLoginOpen, handleRegisterOpen, closeDialog }) {
   const [faveColor, setFaveColor] = useState('primary')
@@ -32,9 +33,16 @@ export default function NavBar ({ toggleFaves, faves, handleLoginOpen, handleReg
   return (
     <AppBar position="sticky">
       <Toolbar>
-        <Typography variant="h2" color="inherit" noWrap sx={{ flexGrow: 1 }}>
+        <Link
+          href="/"
+          underline="none"
+          color="inherit"
+          variant="h2"
+          noWrap
+          sx={{ flexGrow: 1 }}
+        >
           🍜 Use Your Noodle
-        </Typography>
+        </Link>
         <Stack direction="row" spacing={1} >
           <IfAuthenticated>
             <Button

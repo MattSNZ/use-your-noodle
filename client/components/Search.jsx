@@ -1,8 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { getRecipes, getFaveRecipes } from '../apis/recipes'
-
-import { IfAuthenticated, IfNotAuthenticated } from './Authenticated'
-import NoodleCard from './NoodleCard'
 
 import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
@@ -35,7 +31,8 @@ function Search () {
   return (
     <Box
       sx={{
-        py: 5
+        py: 5,
+        minHeight: '90vh'
       }}
     >
       <Container maxWidth="sm" >
@@ -58,10 +55,15 @@ function Search () {
         <Grid container spacing={2}>
           {noodleTypes.map((item, index) => (
             <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
-              <Card >
+              <Card sx={{
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                backgroundColor: 'secondary.main'
+              }}>
                 <CardActionArea href={`/noodle/${item}`}>
                   <CardContent>
-                    <Typography variant="h5">
+                    <Typography variant="h5" align="center">
                       {`${item}`}
                     </Typography>
                   </CardContent>
