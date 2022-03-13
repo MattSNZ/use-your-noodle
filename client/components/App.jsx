@@ -79,7 +79,7 @@ const App = () => {
           handleLoginOpen={handleLoginOpen}
           handleRegisterOpen={handleRegisterOpen}
         />}
-        <Route path="/">
+        <Route exact path="/">
           <Search />
         </Route>
         <Route path="/noodle/:value">

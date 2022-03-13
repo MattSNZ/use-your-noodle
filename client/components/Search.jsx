@@ -20,7 +20,7 @@ const noodleTypes = [
   "Udon",
   "Tagliatelle",
   "Lo Mein",
-  "Cellophane Noodles",
+  "Glass Noodles",
   "Bucatini",
   "Linguine",
   "Pappardelle"
@@ -51,10 +51,10 @@ function Search () {
         Click on your noodle to see how to use it.
         </Typography>
       </Container>
-      <Container sx={{ py: 5 }} maxWidth="lg">
+      <Container sx={{ py: 5 }} maxWidth="md">
         <Grid container spacing={2}>
           {noodleTypes.map((item, index) => (
-            <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
+            <Grid item xs={12} sm={6} md={4} lg={4} key={index}>
               <Card sx={{
                 height: '100%',
                 display: 'flex',
