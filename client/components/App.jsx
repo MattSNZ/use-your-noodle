@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, useParams } from 'react-router-dom'
 
-import Album from './Album'
-import Home from './Home'
+// import Album from './Album'
+// import Home from './SearchResult'
 import NavBar from './NavBar'
 import Footer from './Footer'
 import UserDialog from './UserDialog'
+// import Routing from './Routing'
+import Home from './Home'
+import SearchResult from './SearchResult'
 
 import CssBaseline from '@mui/material/CssBaseline'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
@@ -19,7 +22,7 @@ const theme = createTheme({
       main: '#ADEFD1'
     },
     background: {
-      default: '#00203F'
+      default: '#214a73'
     },
     text: {
       secondary: '#FFF'
@@ -31,7 +34,15 @@ const theme = createTheme({
     fontWeightRegular: 500,
     fontWeightMedium: 600,
     fontWeightHeavy: 700
-  }
+  },
+  overrides: {
+    MuiInputLabel: {
+      root: {
+        color: "#000",
+      },
+    },
+  },
+
 })
 
 const App = () => {
@@ -76,8 +87,12 @@ const App = () => {
           handleLoginOpen={handleLoginOpen}
           handleRegisterOpen={handleRegisterOpen}
         />}
-        <Route path="/album" render={() => (<Album />)} />
-        <Route path="/" render={() => (<Home faves={faves} />)} />
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/noodle/:searchTerm">
+          <SearchResult />
+        </Route>
         <Footer />
       </Router>
     </ThemeProvider>

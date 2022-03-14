@@ -108,7 +108,10 @@ function UserDialog (props) {
         <Box
           component="form"
           sx={{
-            '& .MuiTextField-root': { m: 1, width: '25ch' }
+            '& .MuiTextField-root': { m: 1, width: '25ch' },
+            // display: 'flex',
+            // flexDirection: 'column',
+            // alignItems: 'center'
           }}
           noValidate
           // autoComplete="off"
@@ -138,6 +141,13 @@ function UserDialog (props) {
             label="Email"
             fullWidth={true}
             variant='standard'
+            margin='dense'
+            InputLabelProps={{
+              style: {
+                color: '#55917F'
+              }
+            }}
+
           />
           <TextField
             required
@@ -150,6 +160,12 @@ function UserDialog (props) {
             type="password"
             autoComplete={ registering ? 'new-password' : 'current-password'}
             variant='standard'
+            margin='dense'
+            InputLabelProps={{
+              style: {
+                color: '#55917F'
+              }
+            }}
           />
         </Box>
       </DialogContent>

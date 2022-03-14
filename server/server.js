@@ -14,4 +14,8 @@ const noodleRoutes = require('./routes/noodles')
 server.use('/api/v1', authRoutes)
 server.use('/api/noodles', noodleRoutes)
 
+server.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/index.html'))
+})
+
 module.exports = server

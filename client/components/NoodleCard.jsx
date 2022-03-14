@@ -15,29 +15,7 @@ import Snackbar from '@mui/material/Snackbar'
 
 const snake = require('snakecase-keys')
 
-// import Button from '@mui/material/Button'
-// import CardContent from '@mui/material/CardContent'
-// import Collapse from '@mui/material/Collapse'
-// import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
-// import List from '@mui/material/List'
-// import ListItem from '@mui/material/ListItem'
-// import ListItemText from '@mui/material/ListItemText'
-// import Typography from '@mui/material/Typography'
-// import { styled } from '@mui/material/styles'
-
-// const ExpandMore = styled((props) => {
-//   const { expand, ...other } = props
-//   return <IconButton {...other} />
-// })(({ theme, expand }) => ({
-//   transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
-//   marginLeft: 'auto',
-//   transition: theme.transitions.create('transform', {
-//     duration: theme.transitions.duration.shortest
-//   })
-// }))
-
 export default function NoodleCard ({ noodle }) {
-  // const [expanded, setExpanded] = useState(false)
   const [faveColor, setFaveColor] = useState('default')
   const [faveDisabled, setFaveDisabled] = useState(false)
   const [snackOpen, setSnackOpen] = useState(false)
@@ -71,7 +49,6 @@ export default function NoodleCard ({ noodle }) {
         setFaveColor('secondary')
         return null
       })
-      // .then(() => setFaveColor('secondary'))
       .catch(err => console.log(err))
   }
 
@@ -82,16 +59,16 @@ export default function NoodleCard ({ noodle }) {
     setSnackOpen(false)
   }
 
-  // const handleExpandClick = () => {
-  //   setExpanded(!expanded)
-  //   // console.log(recipe.ingredientLines)
-  // }
-
   return (
     <>
       <Grid item xs={12} sm={6} md={4} lg={3} >
         <Card
-          sx={{ height: '100%', display: 'flex', flexDirection: 'column', backgroundColor: 'secondary.main'}}
+          sx={{
+            height: '100%',
+            display: 'flex',
+            flexDirection: 'column',
+            backgroundColor: 'secondary.main'
+          }}
           variant="outlined"
         >
           <CardHeader
@@ -129,8 +106,6 @@ export default function NoodleCard ({ noodle }) {
         open={snackOpen}
         autoHideDuration={6000}
         onClose={handleClose}
-        // message={snackMessage}
-        // action={action}
       >
         <Alert onClose={handleClose} severity="success" variant="filled" sx={{ width: '100%' }}>
           {snackMessage.toUpperCase()}
