@@ -8,3 +8,4 @@ dev.sqlite3
 .env
 
 .DS_Store
+.vscode
