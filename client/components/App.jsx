@@ -34,7 +34,15 @@ const theme = createTheme({
     fontWeightRegular: 500,
     fontWeightMedium: 600,
     fontWeightHeavy: 700
-  }
+  },
+  overrides: {
+    MuiInputLabel: {
+      root: {
+        color: "#000",
+      },
+    },
+  },
+
 })
 
 const App = () => {
