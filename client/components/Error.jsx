@@ -1,11 +1,12 @@
 import React from 'react'
+
 import Alert from '@mui/material/Alert'
 import AlertTitle from '@mui/material/AlertTitle'
 import Collapse from '@mui/material/Collapse'
 import CloseIcon from '@mui/icons-material/Close'
 import IconButton from '@mui/material/IconButton'
 
-export default function Error ({ children, openError, hideError }) {
+const Error = ({ children, openError, hideError }) => {
   return (
     <Collapse in={openError} >
       <Alert
@@ -28,3 +29,5 @@ export default function Error ({ children, openError, hideError }) {
     </Collapse>
   )
 }
+
+export default Error

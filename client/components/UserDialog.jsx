@@ -15,7 +15,7 @@ import Tabs from '@mui/material/Tabs'
 import TextField from '@mui/material/TextField'
 import Typography from '@mui/material/Typography'
 
-function UserDialog (props) {
+const UserDialog = (props) => {
   const { openDialog, closeDialog, register: registering, handleLoginOpen, handleRegisterOpen } = props
   const [error, setError] = useState('')
   const [openError, setOpenError] = useState(false)

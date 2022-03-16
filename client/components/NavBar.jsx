@@ -12,10 +12,9 @@ import LoginIcon from '@mui/icons-material/Login'
 import LogoutIcon from '@mui/icons-material/Logout'
 import Stack from '@mui/material/Stack'
 import Toolbar from '@mui/material/Toolbar'
-import Typography from '@mui/material/Typography'
 import { Link } from '@mui/material'
 
-export default function NavBar ({ toggleFaves, faves, handleLoginOpen, handleRegisterOpen, closeDialog }) {
+const NavBar = ({ toggleFaves, faves, handleLoginOpen, handleRegisterOpen, closeDialog }) => {
   const [faveColor, setFaveColor] = useState('primary')
   const [buttonText, setButtonText] = useState('Show favourites')
   const history = useHistory()
@@ -85,3 +84,5 @@ export default function NavBar ({ toggleFaves, faves, handleLoginOpen, handleReg
     </AppBar>
   )
 }
+
+export default NavBar

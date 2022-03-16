@@ -4,7 +4,7 @@ import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Link from '@mui/material/Link'
 
-export default function Footer () {
+const Footer = () => {
   return (
     <Box sx={{ bgcolor: 'primary.main', p: 3, position: "fixed", bottom: 0, width: '100vw'}} component="footer">
       <Typography variant="h6" align="center" gutterBottom>
@@ -13,3 +13,5 @@ export default function Footer () {
     </Box>
   )
 }
+
+export default Footer

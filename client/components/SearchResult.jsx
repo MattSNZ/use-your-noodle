@@ -9,8 +9,17 @@ import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
+import Image from 'mui-image'
 
-function SearchResult ({ faves }) {
+const LoadingGif = () => {
+  return (
+    <Grid item xs={12} sm={6} md={4} lg={3} >
+      <Image src="../../server/public/noodles.gif" duration={0}  />
+    </Grid>
+  )
+}
+
+const SearchResult = ({ faves }) => {
   let { searchTerm } = useParams()
   const [noodles, setNoodles] = useState(null)
 
@@ -29,19 +38,14 @@ function SearchResult ({ faves }) {
   }
 
   useEffect(() => {
-    console.log('faves:', searchTerm)
     faves ? showFaves() : randomNoodles(searchTerm)
   }, [faves])
-
-  // useEffect(() => {
-  //   console.log('searchTerm:', searchTerm)
-  //   searchTerm ? randomNoodles(searchTerm) : null
-  // }, [searchTerm])
 
   return (
     <Box
       sx={{
-        py: 5
+        py: 5,
+        minHeight: "90vh"
       }}
     >
       <Container maxWidth="sm" >
@@ -73,9 +77,12 @@ function SearchResult ({ faves }) {
       </Container>
       <Container sx={{ py: 5 }} maxWidth="lg">
         <Grid container spacing={2}>
-          {noodles?.map((item) => (
-            <NoodleCard noodle={item} key={item.uri || item.externalId}/>
-          ))}
+          {noodles ?
+            noodles.map((item) => (
+              <NoodleCard noodle={item} key={item.uri || item.externalId}/>
+            )) :
+            <LoadingGif />
+          }
         </Grid>
       </Container>
     </Box>

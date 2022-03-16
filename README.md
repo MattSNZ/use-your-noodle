@@ -24,5 +24,6 @@ Once you've done that, you can use your noodle on localhost:3000
 - [x] Add Snackbar component for saving favourites
 - [x] Register, log in, and log out
 - [ ] Add per-user favourites
+- [ ] Fix the dishType problem
 
 *Plenty else*

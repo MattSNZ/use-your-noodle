@@ -15,7 +15,7 @@ import Snackbar from '@mui/material/Snackbar'
 
 const snake = require('snakecase-keys')
 
-export default function NoodleCard ({ noodle }) {
+const NoodleCard = ({ noodle }) => {
   const [faveColor, setFaveColor] = useState('default')
   const [faveDisabled, setFaveDisabled] = useState(false)
   const [snackOpen, setSnackOpen] = useState(false)
@@ -37,7 +37,7 @@ export default function NoodleCard ({ noodle }) {
     yield: noodle.yield,
     cuisineType: noodle?.cuisineType[0],
     mealType: noodle?.mealType[0],
-    dishType: noodle?.dishType[0],
+    //dishType: noodle?.dishType[0],
     totalTime: noodle.totalTime
   }
 
@@ -113,3 +113,5 @@ export default function NoodleCard ({ noodle }) {
       </Snackbar>
     </>)
 }
+
+export default NoodleCard

@@ -1,12 +1,9 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Route, useParams } from 'react-router-dom'
 
-// import Album from './Album'
-// import Home from './SearchResult'
 import NavBar from './NavBar'
 import Footer from './Footer'
 import UserDialog from './UserDialog'
-// import Routing from './Routing'
 import Home from './Home'
 import SearchResult from './SearchResult'
 

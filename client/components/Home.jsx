@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
 import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
@@ -26,7 +26,7 @@ const noodleTypes = [
   "Pappardelle"
   ]
 
-function Home () {
+const Home = () => {
 
   return (
     <Box
