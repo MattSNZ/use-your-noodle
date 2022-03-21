@@ -1,8 +1,9 @@
 // const db = require('../db/db')
-const { insertRecipe, getFaveRecipes } = require('../db/db')
+const { insertRecipe, getFaveRecipes, insertFavouriteRecipe } = require('../db/db')
 
 const request = require('superagent')
 const camel = require('camelcase-keys')
+const { getTokenDecoder } = require('authenticare/server')
 
 const express = require('express')
 const router = express.Router()
@@ -47,8 +48,8 @@ router.get('/', (req, res) => {
     })
 })
 
-router.get('/faves', (req, res) => {
-  getFaveRecipes()
+router.get('/faves', getTokenDecoder(), (req, res) => {
+  getFaveRecipes(req.user)
     .then(recipes => res.json(camel(recipes)))
     .catch(err => {
       console.log(err.message)
@@ -67,15 +68,17 @@ router.get('/:id', (req, res) => {
     })
 })
 
-router.post('/', (req, res) => {
+router.post('/', getTokenDecoder(), (req, res) => {
   const recipe = req.body
+  const user = req.user
 
-  insertRecipe(recipe)
+  insertRecipe(recipe, user)
     .then(idArr => {
       recipe.id = idArr[0]
       res.json(camel(recipe))
       return null
     })
+    .then(() => insertFavouriteRecipe(recipe, user))
     .catch(err => {
       console.log(err.message)
       return res.status(500).send('500 error :(')

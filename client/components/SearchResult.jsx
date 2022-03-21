@@ -10,6 +10,7 @@ import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
 import Image from 'mui-image'
+import Button from '@mui/material/Button'
 
 const LoadingGif = () => {
   return (
@@ -36,6 +37,7 @@ const SearchResult = ({ faves }) => {
       .then(data => setNoodles(data))
       .catch(err => console.log(err.message))
   }
+  // TODO Rewrite faves so that NavBar link redirects page to /favourites which then loads faves from db
 
   useEffect(() => {
     faves ? showFaves() : randomNoodles(searchTerm)
@@ -56,6 +58,8 @@ const SearchResult = ({ faves }) => {
         >
         Check out the recipes below to use your noodle.
         </Typography>
+        <Button variant="outlined" onClick={showFaves}>
+          Faves? </Button>
         <IfAuthenticated>
           <Typography
             variant="h5"
