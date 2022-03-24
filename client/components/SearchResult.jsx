@@ -15,7 +15,7 @@ import Button from '@mui/material/Button'
 const LoadingGif = () => {
   return (
     <Grid item xs={12} sm={6} md={4} lg={3} >
-      <Image src="../../server/public/noodles.gif" duration={0}  />
+      <Image src="../../server/public/noodles.gif" duration={0} />
     </Grid>
   )
 }
@@ -56,7 +56,7 @@ const SearchResult = ({ faves }) => {
           color="text.secondary"
           gutterBottom
         >
-        Check out the recipes below to use your noodle.
+          Check out the recipes below to use your noodle.
         </Typography>
         <Button variant="outlined" onClick={showFaves}>
           Faves? </Button>
@@ -66,7 +66,7 @@ const SearchResult = ({ faves }) => {
             color="text.primary"
             gutterBottom
           >
-          Click the heart to save to your favourites.
+            Click the heart to save to your favourites.
           </Typography>
         </IfAuthenticated>
         <IfNotAuthenticated>
@@ -75,7 +75,7 @@ const SearchResult = ({ faves }) => {
             color="text.primary"
             gutterBottom
           >
-          Register to save recipes as favourites.
+            Register to save recipes as favourites.
           </Typography>
         </IfNotAuthenticated>
       </Container>
@@ -83,7 +83,7 @@ const SearchResult = ({ faves }) => {
         <Grid container spacing={2}>
           {noodles ?
             noodles.map((item) => (
-              <NoodleCard noodle={item} key={item.uri || item.externalId}/>
+              <NoodleCard noodle={item} key={item.uri || item.externalId} />
             )) :
             <LoadingGif />
           }
