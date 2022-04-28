@@ -8,7 +8,9 @@
   "license": "MIT",
   "scripts": {
     "start": "node server",
-    "build": "npm run webpack",
+    "build": "run-p build:client build:server",
+    "build:client": "npm run webpack -- --mode production",
+    "build:server": "npm run knex -- migrate:latest",
     "dev": "run-p dev:client dev:server",
     "dev:client": "npm run webpack -- --watch",
     "dev:server": "nodemon server",
@@ -39,6 +41,9 @@
       "bundle.js"
     ]
   },
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "@mui/icons-material": "^5.0.0",
     "@mui/material": "^5.0.0",
@@ -52,6 +57,7 @@
     "express": "^4.17.1",
     "knex": "^0.95.4",
     "mui-image": "^1.0.4",
+    "pg": "^8.7.3",
     "snakecase-keys": "^5.1.0",
     "typescript": "^4.4.4"
   },

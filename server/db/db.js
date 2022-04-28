@@ -1,6 +1,6 @@
 const knex = require('knex')
-const config = require('./knexfile')
 const env = process.env.NODE_ENV || 'development'
+const config = require('./knexfile')[environment]
 const connection = knex(config[env])
 
 const getFaveRecipes = (user, db = connection) => {
@@ -16,12 +16,12 @@ const insertFavouriteRecipe = (recipe, user, db = connection) => {
     user_id: user.id
   }
   return db('favourite_recipes')
-    .insert(faveObj)
+    .insert(faveObj, 'id')
 }
 
 const insertRecipe = (recipe, user, db = connection) => {
   return db('recipes')
-    .insert(recipe)
+    .insert(recipe, 'id')
 }
 
 module.exports = {
