@@ -58,8 +58,6 @@ const SearchResult = ({ faves }) => {
         >
           Check out the recipes below to use your noodle.
         </Typography>
-        <Button variant="outlined" onClick={showFaves}>
-          Faves? </Button>
         <IfAuthenticated>
           <Typography
             variant="h5"
