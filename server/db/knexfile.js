@@ -41,7 +41,7 @@ module.exports = {
   production: {
     client: 'postgresql',
     connection: {
-      connectionString: process.env.HEROKU_POSTGRESQL_GOLD_URL,
+      connectionString: process.env.DATABASE_URL,
       ssl: { rejectUnauthorized: false }
     },
     pool: {
@@ -49,11 +49,10 @@ module.exports = {
       max: 10
     },
     migrations: {
-      directory: __dirname + '/db/migrations',
+      tableName: 'knex_migrations'
     },
     seeds: {
       directory: __dirname + '/db/seeds',
-    },
-}
-
+    }
+  }
 }
