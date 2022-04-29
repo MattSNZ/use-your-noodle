@@ -1,6 +1,6 @@
 const knex = require('knex')
 const env = process.env.NODE_ENV || 'development'
-const config = require('./knexfile')[environment]
+const config = require('./knexfile')
 const connection = knex(config[env])
 
 const getFaveRecipes = (user, db = connection) => {
