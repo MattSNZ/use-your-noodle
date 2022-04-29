@@ -47,6 +47,8 @@
   "dependencies": {
     "@mui/icons-material": "^5.0.0",
     "@mui/material": "^5.0.0",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
     "authenticare": "^0.4.9",
     "camelcase-keys": "^7.0.1",
     "dotenv": "^10.0.0",
