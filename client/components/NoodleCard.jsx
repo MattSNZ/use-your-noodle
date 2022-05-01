@@ -5,6 +5,7 @@ import { IfAuthenticated } from './Authenticated'
 import Alert from '@mui/material/Alert'
 import Card from '@mui/material/Card'
 import CardActions from '@mui/material/CardActions'
+import CardActionArea from '@mui/material/CardActionArea'
 import CardHeader from '@mui/material/CardHeader'
 import CardMedia from '@mui/material/CardMedia'
 import FavoriteIcon from '@mui/icons-material/Favorite'
@@ -71,15 +72,26 @@ const NoodleCard = ({ noodle }) => {
           }}
           variant="outlined"
         >
-          <CardHeader
-            title={recipe.label}
-          />
-          <CardMedia
-            component="img"
-            sx={{ pt: '5px', flex: 1 }}
-            image={recipe.image}
-            alt={recipe.label}
-          />
+          <CardActionArea
+            href={recipe.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            sx={{
+              flex: 1,
+              display: 'flex',
+              flexDirection: 'column',
+            }}
+          >
+            <CardHeader
+              title={recipe.label}
+            />
+            <CardMedia
+              component="img"
+              sx={{ pt: '5px', flex: 1 }}
+              image={recipe.image}
+              alt={recipe.label}
+            />
+          </CardActionArea>
           <CardActions sx={{ justifyContent: 'flex-end' }} >
             <IconButton
               aria-label={`view on ${recipe.source}`}
