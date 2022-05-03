@@ -24,10 +24,10 @@ const SearchResult = ({ faves }) => {
   let { searchTerm } = useParams()
   const [noodles, setNoodles] = useState(null)
 
-  const randomNoodles = (str) => {
-    // if (str.substring(str.length - 7) !== 'noodles') {
-    //   str = str + ' noodles'
-    // }
+  const noodleSearch = (str) => {
+    if (str.substring(str.length - 7) !== 'noodles') {
+      str = str + ' noodles'
+    }
     return getRecipes(str)
       .then(data => setNoodles(data))
   }
@@ -40,7 +40,7 @@ const SearchResult = ({ faves }) => {
   // TODO Rewrite faves so that NavBar link redirects page to /favourites which then loads faves from db
 
   useEffect(() => {
-    faves ? showFaves() : randomNoodles(searchTerm)
+    faves ? showFaves() : noodleSearch(searchTerm)
   }, [faves])
 
   return (

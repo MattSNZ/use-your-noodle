@@ -1,7 +1,7 @@
 const environments = {
   development: 'http://localhost:3000/api/v1',
   test: 'http://localhost:3000/api/v1',
-  production: 'https://useyournoodle.herokuapp.com/api/v1',
+  production: '/api/v1',
   integration: '',
   deployment: '',
   build: ''
