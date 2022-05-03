@@ -12,7 +12,7 @@ exports.seed = function(knex) {
         {id: 5, recipe_id: 5, user_id: '1'},
         {id: 6, recipe_id: 6, user_id: '1'},
         {id: 8, recipe_id: 10, user_id: '1'},
-        {id: 9, recipe_id: 11, user_id: '1'},
+        {id: 9, recipe_id: 13, user_id: '1'},
         {id: 10, recipe_id: 12, user_id: '1'},
         {id: 12, recipe_id: 14, user_id: '1'},
         {id: 13, recipe_id: 15, user_id: '1'},
