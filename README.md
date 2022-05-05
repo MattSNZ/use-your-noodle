@@ -23,7 +23,7 @@ Once you've done that, you can use your noodle on localhost:3000
 - [x] Search by *type* of noodle.
 - [x] Add Snackbar component for saving favourites
 - [x] Register, log in, and log out
-- [ ] Add per-user favourites
-- [ ] Fix the dishType problem
+- [x] Add per-user favourites
+- [x] Deploy on Heroku: https://useyournoodle.herokuapp.com
 
 *Plenty else*

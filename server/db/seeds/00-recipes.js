@@ -14,7 +14,6 @@ exports.seed = function (knex) {
           yield: '6',
           cuisine_type: 'middle eastern',
           meal_type: 'lunch/dinner',
-          dish_type: 'main course',
           total_time: '65'
         },
         {
@@ -27,7 +26,6 @@ exports.seed = function (knex) {
           yield: '6',
           cuisine_type: 'chinese',
           meal_type: 'lunch/dinner',
-          dish_type: 'main course',
           total_time: '0'
         },
         {
@@ -40,7 +38,6 @@ exports.seed = function (knex) {
           yield: '10',
           cuisine_type: 'south east asian',
           meal_type: 'lunch/dinner',
-          dish_type: 'main course',
           total_time: '0'
         },
         {
@@ -53,7 +50,6 @@ exports.seed = function (knex) {
           yield: '4',
           cuisine_type: 'asian',
           meal_type: 'lunch/dinner',
-          dish_type: 'main course',
           total_time: '0'
         },
         {
@@ -66,7 +62,6 @@ exports.seed = function (knex) {
           yield: '12',
           cuisine_type: 'chinese',
           meal_type: 'breakfast',
-          dish_type: 'condiments and sauces',
           total_time: '0'
         },
         {
@@ -79,7 +74,6 @@ exports.seed = function (knex) {
           yield: '3',
           cuisine_type: 'asian',
           meal_type: 'lunch/dinner',
-          dish_type: 'salad',
           total_time: '15'
         },
         {
@@ -92,7 +86,6 @@ exports.seed = function (knex) {
           yield:  "4",
           cuisine_type:  "indian",
           meal_type:  "lunch/dinner",
-          dish_type:  "main course",
           total_time:   "20"
         },
         {
@@ -105,7 +98,6 @@ exports.seed = function (knex) {
           yield: "6",
           cuisine_type: "japanese",
           meal_type: "lunch/dinner",
-          dish_type: "main course",
           total_time:  "0"
         },
         {
@@ -118,7 +110,6 @@ exports.seed = function (knex) {
           yield: "8",
           cuisine_type: "american",
           meal_type: "lunch/dinner",
-          dish_type: "main course",
           total_time:  "360"
         },
         {
@@ -131,7 +122,6 @@ exports.seed = function (knex) {
           yield: "6",
           cuisine_type: "asian",
           meal_type: "lunch/dinner",
-          dish_type: "main course",
           total_time:  "45"
         },
         {
@@ -144,7 +134,6 @@ exports.seed = function (knex) {
           yield: "2",
           cuisine_type: "indian",
           meal_type: "lunch/dinner",
-          dish_type: "main course",
           total_time:  "45"
         },
         {
@@ -157,7 +146,6 @@ exports.seed = function (knex) {
           yield: "3",
           cuisine_type: "italian",
           meal_type: "lunch/dinner",
-          dish_type: "bread",
           total_time:  "55"
         },
         {
@@ -170,7 +158,6 @@ exports.seed = function (knex) {
           yield: "4",
           cuisine_type: "south east asian",
           meal_type: "lunch/dinner",
-          dish_type: "main course",
           total_time:  "0"
         },
         {
@@ -183,7 +170,6 @@ exports.seed = function (knex) {
           yield: "3",
           cuisine_type: "south east asian",
           meal_type: "lunch/dinner",
-          dish_type: "main course",
           total_time:  "0"
         },
         {
@@ -196,7 +182,6 @@ exports.seed = function (knex) {
           yield: "4",
           cuisine_type: "asian",
           meal_type: "lunch/dinner",
-          dish_type: "main course",
           total_time:"0"
         },
         {
@@ -209,7 +194,6 @@ exports.seed = function (knex) {
           yield: "4",
           cuisine_type: "south east asian",
           meal_type: "lunch/dinner",
-          dish_type: "main course",
           total_time: "30"
         },
         {
@@ -222,7 +206,6 @@ exports.seed = function (knex) {
           yield: "5",
           cuisine_type: "asian",
           meal_type: "lunch/dinner",
-          dish_type: "main course",
           total_time: "18"
         },
         {
@@ -235,7 +218,6 @@ exports.seed = function (knex) {
           yield: "10",
           cuisine_type: "asian",
           meal_type: "lunch/dinner",
-          dish_type: "main course",
           total_time: "0"
         },
         {
@@ -248,7 +230,6 @@ exports.seed = function (knex) {
           yield: "14",
           cuisine_type: "eastern europe",
           meal_type: "lunch/dinner",
-          dish_type: "soup",
           total_time: "0"
         },
         {
@@ -261,7 +242,6 @@ exports.seed = function (knex) {
           yield: "1",
           cuisine_type: "japanese",
           meal_type: "breakfast",
-          dish_type: "main course",
           total_time: "0"
         },
         {
@@ -274,7 +254,6 @@ exports.seed = function (knex) {
           yield: "4",
           cuisine_type: "south east asian",
           meal_type: "lunch/dinner",
-          dish_type: "main course",
           total_time: "25"
         },
         {
@@ -287,7 +266,6 @@ exports.seed = function (knex) {
           yield: "2",
           cuisine_type: "asian",
           meal_type: "lunch/dinner",
-          dish_type: "soup",
           total_time: "10"
         },
         {
@@ -300,7 +278,6 @@ exports.seed = function (knex) {
           yield: "4",
           cuisine_type: "south east asian",
           meal_type: "lunch/dinner",
-          dish_type: "starter",
           total_time: "15"
         },
         {
@@ -313,7 +290,6 @@ exports.seed = function (knex) {
           yield: "6",
           cuisine_type: "asian",
           meal_type: "lunch/dinner",
-          dish_type: "main course",
           total_time: "180"
         },
         {
@@ -326,7 +302,6 @@ exports.seed = function (knex) {
           yield: "4",
           cuisine_type: "asian",
           meal_type: "lunch/dinner",
-          dish_type: "NULL",
           total_time: "35"
         },
         {
@@ -339,7 +314,6 @@ exports.seed = function (knex) {
           yield: "4",
           cuisine_type: "chinese",
           meal_type: "lunch/dinner",
-          dish_type: "NULL",
           total_time: "60"
         }
       ])
