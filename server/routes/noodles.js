@@ -27,7 +27,7 @@ const searchQueryObj = {
     'totalTime',
     'cuisineType',
     'mealType',
-    'dishType'
+    // 'dishType'
   ]
 }
 

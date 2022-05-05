@@ -25,7 +25,7 @@ const SearchResult = ({ faves }) => {
   const [noodles, setNoodles] = useState(null)
 
   const noodleSearch = (str) => {
-    if (str.substring(str.length - 7) !== 'noodles') {
+    if (str.substring(str.length - 7) !== 'Noodles') {
       str = str + ' noodles'
     }
     return getRecipes(str)

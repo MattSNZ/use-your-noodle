@@ -38,7 +38,6 @@ const NoodleCard = ({ noodle }) => {
     yield: noodle.yield,
     cuisineType: noodle?.cuisineType[0],
     mealType: noodle?.mealType[0],
-    //dishType: noodle?.dishType[0],
     totalTime: noodle.totalTime
   }
 
