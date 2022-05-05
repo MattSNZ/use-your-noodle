@@ -44,7 +44,7 @@ router.get('/', (req, res) => {
     })
     .catch(err => {
       console.log(err.message)
-      return res.status(500).send('500 error :(')
+      return res.status(500).send(`500 error :( ${err.message}`)
     })
 })
 
@@ -53,7 +53,7 @@ router.get('/faves', getTokenDecoder(), (req, res) => {
     .then(recipes => res.json(camel(recipes)))
     .catch(err => {
       console.log(err.message)
-      return res.status(500).send('500 error :(')
+      return res.status(500).send(`500 error :( ${err.message}`)
     })
 })
 
@@ -64,7 +64,7 @@ router.get('/:id', (req, res) => {
     .then(response => res.json(response.body))
     .catch(err => {
       console.log(err.message)
-      return res.status(500).send('500 error :(')
+      return res.status(500).send(`500 error :( ${err.message}`)
     })
 })
 
@@ -81,7 +81,7 @@ router.post('/', getTokenDecoder(), (req, res) => {
     .then(() => insertFavouriteRecipe(recipe, user))
     .catch(err => {
       console.log(err.message)
-      return res.status(500).send('500 error :(')
+      return res.status(500).send(`500 error :( ${err.message}`)
     })
 })
 
